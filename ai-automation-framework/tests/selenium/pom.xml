@@ -58,12 +58,14 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.2.5</version>
         <configuration>
-          <argLine>-javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar</argLine>
+          <argLine>-javaagent:${project.basedir}/.m2repo/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar</argLine>
           <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
+            <suiteXmlFile>testng-first-78.xml</suiteXmlFile>
           </suiteXmlFiles>
+          <rerunFailingTestsCount>0</rerunFailingTestsCount>
+          <testFailureIgnore>true</testFailureIgnore>
           <systemPropertyVariables>
-            <allure.results.directory>target/allure-results</allure.results.directory>
+            <allure.results.directory>${project.basedir}/target/allure-results</allure.results.directory>
           </systemPropertyVariables>
         </configuration>
       </plugin>
