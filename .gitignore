@@ -1,0 +1,27 @@
+# Maven
+target/
+*.class
+.m2repo/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Allure
+allure-results/
+allure-report/
+.allure/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Internal
+.sixth/

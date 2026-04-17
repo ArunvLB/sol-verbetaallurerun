@@ -1,0 +1,186 @@
+{
+  "slides": [
+    {
+      "title": "Overview",
+      "content": "Automated testing for https://beta.solwerindia.com/"
+    },
+    {
+      "title": "Coverage",
+      "content": "Pages discovered and mapped: 17"
+    },
+    {
+      "title": "Results",
+      "content": "Total Tests: 45"
+    },
+    {
+      "title": "Page: SOLWER India - Data-Driven Sustainable Automotive Solutions",
+      "page": "https://beta.solwerindia.com/",
+      "bullets": [
+        "URL: https://beta.solwerindia.com/",
+        "Buttons: 5, Headings: 9",
+        "Forms: 0, Integrations: 0 iframes / 1 scripts",
+        "Tests: 19 run"
+      ]
+    },
+    {
+      "title": "Page: SOLWER India: IoT, AI, Innovative Technology",
+      "page": "https://beta.solwerindia.com/solutions",
+      "bullets": [
+        "URL: https://beta.solwerindia.com/solutions",
+        "Buttons: 12, Headings: 8",
+        "Forms: 1, Integrations: 3 iframes / 3 scripts",
+        "Tests: 2 run"
+      ]
+    },
+    {
+      "title": "Page: Digital Tools - SOLWER India | Innovative Technology Solutions",
+      "page": "https://beta.solwerindia.com/digital-tools",
+      "bullets": [
+        "URL: https://beta.solwerindia.com/digital-tools",
+        "Buttons: 11, Headings: 9",
+        "Forms: 0, Integrations: 2 iframes / 1 scripts",
+        "Tests: 2 run"
+      ]
+    },
+    {
+      "title": "Page: Solwer India Official - YouTube",
+      "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+      "bullets": [
+        "URL: https://www.youtube.com/@SolwerIndiaOfficial",
+        "Buttons: 5, Headings: 0",
+        "Forms: 2, Integrations: 2 iframes / 16 scripts",
+        "Tests: 2 run"
+      ]
+    },
+    {
+      "title": "Page: SOLWER India - Data-Driven Sustainable Automotive Solutions",
+      "page": "https://beta.solwerindia.com/brochures",
+      "bullets": [
+        "URL: https://beta.solwerindia.com/brochures",
+        "Buttons: 6, Headings: 2",
+        "Forms: 1, Integrations: 3 iframes / 3 scripts",
+        "Tests: 2 run"
+      ]
+    },
+    {
+      "title": "Page: SOLWER India - Data-Driven Sustainable Automotive Solutions",
+      "page": "https://beta.solwerindia.com/news",
+      "bullets": [
+        "URL: https://beta.solwerindia.com/news",
+        "Buttons: 5, Headings: 9",
+        "Forms: 0, Integrations: 0 iframes / 1 scripts",
+        "Tests: 2 run"
+      ]
+    },
+    {
+      "title": "Page: SOLWER India - Data-Driven Sustainable Automotive Solutions",
+      "page": "https://beta.solwerindia.com/contact-building",
+      "bullets": [
+        "URL: https://beta.solwerindia.com/contact-building",
+        "Buttons: 6, Headings: 9",
+        "Forms: 1, Integrations: 3 iframes / 3 scripts",
+        "Tests: 2 run"
+      ]
+    },
+    {
+      "title": "Page: SOLWER India - Data-Driven Sustainable Automotive Solutions",
+      "page": "https://beta.solwerindia.com/blogs",
+      "bullets": [
+        "URL: https://beta.solwerindia.com/blogs",
+        "Buttons: 27, Headings: 23",
+        "Forms: 0, Integrations: 0 iframes / 1 scripts",
+        "Tests: 2 run"
+      ]
+    },
+    {
+      "title": "Page: Careers & Jobs – SOLWER India | Join our Team",
+      "page": "https://beta.solwerindia.com/jobs",
+      "bullets": [
+        "URL: https://beta.solwerindia.com/jobs",
+        "Buttons: 5, Headings: 10",
+        "Forms: 0, Integrations: 0 iframes / 1 scripts",
+        "Tests: 2 run"
+      ]
+    },
+    {
+      "title": "Page: Contact Us - SOLWER India | Get in Touch for Automotive Solutions",
+      "page": "https://beta.solwerindia.com/contact",
+      "bullets": [
+        "URL: https://beta.solwerindia.com/contact",
+        "Buttons: 6, Headings: 2",
+        "Forms: 1, Integrations: 4 iframes / 3 scripts",
+        "Tests: 2 run"
+      ]
+    },
+    {
+      "title": "Page: ログイン | NIKKEI ID",
+      "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "bullets": [
+        "URL: https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+        "Buttons: 48, Headings: 46",
+        "Forms: 1, Integrations: 2 iframes / 4 scripts",
+        "Tests: 2 run"
+      ]
+    },
+    {
+      "title": "Page: https://jp.findy-team.io/case/denso_international_india/",
+      "page": "https://jp.findy-team.io/case/denso_international_india/",
+      "bullets": [
+        "URL: https://jp.findy-team.io/case/denso_international_india/",
+        "Buttons: 0, Headings: 0",
+        "Forms: 0, Integrations: 0 iframes / 0 scripts",
+        "Tests: 0 run"
+      ]
+    },
+    {
+      "title": "Page: https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/",
+      "page": "https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/",
+      "bullets": [
+        "URL: https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/",
+        "Buttons: 0, Headings: 0",
+        "Forms: 0, Integrations: 0 iframes / 0 scripts",
+        "Tests: 0 run"
+      ]
+    },
+    {
+      "title": "Page: デンソー、SaaSで本腰 — 新興国発のSolwerサービスを先進国へ - SOLWER India Blog",
+      "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "bullets": [
+        "URL: https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+        "Buttons: 9, Headings: 6",
+        "Forms: 1, Integrations: 3 iframes / 3 scripts",
+        "Tests: 2 run"
+      ]
+    },
+    {
+      "title": "Page: How Predicting Demand Improves Inventory and Logistics: A Roadmap to Superior Supply Chain Performance - SOLWER India Blog",
+      "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "bullets": [
+        "URL: https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+        "Buttons: 9, Headings: 28",
+        "Forms: 1, Integrations: 3 iframes / 3 scripts",
+        "Tests: 2 run"
+      ]
+    },
+    {
+      "title": "Page: Navigating Logistics Complexity: Breaking the Barriers to Supply Chain Visibility - SOLWER India Blog",
+      "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "bullets": [
+        "URL: https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+        "Buttons: 9, Headings: 10",
+        "Forms: 1, Integrations: 3 iframes / 3 scripts",
+        "Tests: 2 run"
+      ]
+    },
+    {
+      "title": "Page: https://www.denso.com/in/en/privacy-policy/",
+      "page": "https://www.denso.com/in/en/privacy-policy/",
+      "bullets": [
+        "URL: https://www.denso.com/in/en/privacy-policy/",
+        "Buttons: 0, Headings: 0",
+        "Forms: 0, Integrations: 0 iframes / 0 scripts",
+        "Tests: 0 run"
+      ]
+    }
+  ]
+}

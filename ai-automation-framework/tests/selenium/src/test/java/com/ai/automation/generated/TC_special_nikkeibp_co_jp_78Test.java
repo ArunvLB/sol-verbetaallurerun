@@ -1,0 +1,24 @@
+package com.ai.automation.generated;
+
+import com.ai.automation.BaseTest;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import org.testng.annotations.Test;
+
+public class TC_special_nikkeibp_co_jp_78Test extends BaseTest {
+
+  @Epic("Crawl-derived test cases")
+  @Feature("navigation")
+  @Severity(SeverityLevel.CRITICAL)
+  @Description("Auto-generated: Graceful handling of broken navigation\nExpected: User sees branded 404/empty state without crashes; navigation controls remain usable")
+  @Test(description = "negative | navigation | Graceful handling of broken navigation")
+  public void test_TC_special_nikkeibp_co_jp_78() {
+    driver.get("https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/");
+    // Step 1: Attempt to navigate to an invalid path under https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/ (e.g., /invalid-test-path)
+    // Step 2: Observe response and UI
+    // TODO: Add assertions to verify: User sees branded 404/empty state without crashes; navigation controls remain usable
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AI Automation Selenium Suite" parallel="false">
+  <listeners>
+    <listener class-name="com.ai.automation.utils.AllureTestListener"/>
+    <listener class-name="com.ai.automation.utils.ConsoleLoggerListener"/>
+  </listeners>
+  <test name="Generated Tests">
+    <packages>
+      <package name="com.ai.automation.generated"/>
+    </packages>
+  </test>
+</suite>

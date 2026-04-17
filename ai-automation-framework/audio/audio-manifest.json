@@ -1,0 +1,215 @@
+{
+  "generatedAt": "2026-03-31T11:57:13.750Z",
+  "totalSlides": 23,
+  "audioGenerated": 23,
+  "audioDir": "F:\\beta.solwer\\ai-automation-framework\\audio",
+  "slides": [
+    {
+      "index": 0,
+      "slide": "Overview",
+      "narration": "Let's begin with an overview of the automated test run. Automated testing for https://beta.solwerindia.com/ The analysis was performed on Total Pages Scanned: 17, giving us a comprehensive view of the site's current state.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-1-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-1.mp3",
+      "audioUrl": "/audio/slide-1.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 1,
+      "slide": "Coverage",
+      "narration": "Now let's move to our page coverage. The discovery agent mapped 5 pages across the site, extracting buttons, headings, and key UI elements from each page for in-depth analysis.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-2-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-2.mp3",
+      "audioUrl": "/audio/slide-2.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 2,
+      "slide": "Page: SOLWER India - Data-Driven Sustainable Automotive Solutions",
+      "narration": "Next, we analyze slide 3: Page: SOLWER India - Data-Driven Sustainable Automotive Solutions. URL: https://beta.solwerindia.com/. Buttons: 5, Headings: 9.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-3-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-3.mp3",
+      "audioUrl": "/audio/slide-3.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 3,
+      "slide": "Page: SOLWER India: IoT, AI, Innovative Technology",
+      "narration": "Moving on, let's examine slide 4: Page: SOLWER India: IoT, AI, Innovative Technology. URL: https://beta.solwerindia.com/solutions. Buttons: 12, Headings: 8.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-4-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-4.mp3",
+      "audioUrl": "/audio/slide-4.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 4,
+      "slide": "Page: Digital Tools - SOLWER India | Innovative Technology Solutions",
+      "narration": "Finally, let's review slide 5: Page: Digital Tools - SOLWER India | Innovative Technology Solutions. URL: https://beta.solwerindia.com/digital-tools. Buttons: 11, Headings: 9.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-5-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-5.mp3",
+      "audioUrl": "/audio/slide-5.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 5,
+      "slide": "Page: Solwer India Official - YouTube",
+      "narration": "Finally, let's review slide 6: Page: Solwer India Official - YouTube. URL: https://www.youtube.com/@SolwerIndiaOfficial. Buttons: 5, Headings: 0.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-6-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-6.mp3",
+      "audioUrl": "/audio/slide-6.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 6,
+      "slide": "Page: SOLWER India - Data-Driven Sustainable Automotive Solutions",
+      "narration": "Finally, let's review slide 7: Page: SOLWER India - Data-Driven Sustainable Automotive Solutions. URL: https://beta.solwerindia.com/brochures. Buttons: 6, Headings: 2.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-7-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-7.mp3",
+      "audioUrl": "/audio/slide-7.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 7,
+      "slide": "Page: SOLWER India - Data-Driven Sustainable Automotive Solutions",
+      "narration": "Finally, let's review slide 8: Page: SOLWER India - Data-Driven Sustainable Automotive Solutions. URL: https://beta.solwerindia.com/news. Buttons: 5, Headings: 9.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-8-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-8.mp3",
+      "audioUrl": "/audio/slide-8.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 8,
+      "slide": "Page: SOLWER India - Data-Driven Sustainable Automotive Solutions",
+      "narration": "Finally, let's review slide 9: Page: SOLWER India - Data-Driven Sustainable Automotive Solutions. URL: https://beta.solwerindia.com/contact-building. Buttons: 6, Headings: 9.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-9-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-9.mp3",
+      "audioUrl": "/audio/slide-9.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 9,
+      "slide": "Page: SOLWER India - Data-Driven Sustainable Automotive Solutions",
+      "narration": "Finally, let's review slide 10: Page: SOLWER India - Data-Driven Sustainable Automotive Solutions. URL: https://beta.solwerindia.com/blogs. Buttons: 27, Headings: 23.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-10-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-10.mp3",
+      "audioUrl": "/audio/slide-10.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 10,
+      "slide": "Page: Careers & Jobs – SOLWER India | Join our Team",
+      "narration": "Finally, let's review slide 11: Page: Careers & Jobs – SOLWER India | Join our Team. URL: https://beta.solwerindia.com/jobs. Buttons: 5, Headings: 10.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-11-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-11.mp3",
+      "audioUrl": "/audio/slide-11.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 11,
+      "slide": "Page: Contact Us - SOLWER India | Get in Touch for Automotive Solutions",
+      "narration": "Finally, let's review slide 12: Page: Contact Us - SOLWER India | Get in Touch for Automotive Solutions. URL: https://beta.solwerindia.com/contact. Buttons: 6, Headings: 2.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-12-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-12.mp3",
+      "audioUrl": "/audio/slide-12.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 12,
+      "slide": "Page: ログイン | NIKKEI ID",
+      "narration": "Finally, let's review slide 13: Page: ログイン | NIKKEI ID. URL: https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/. Buttons: 48, Headings: 46.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-13-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-13.mp3",
+      "audioUrl": "/audio/slide-13.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 13,
+      "slide": "Page: https://jp.findy-team.io/case/denso_international_india/",
+      "narration": "Finally, let's review slide 14: Page: https://jp.findy-team.io/case/denso_international_india/. URL: https://jp.findy-team.io/case/denso_international_india/. Buttons: 0, Headings: 0.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-14-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-14.mp3",
+      "audioUrl": "/audio/slide-14.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 14,
+      "slide": "Page: https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/",
+      "narration": "Finally, let's review slide 15: Page: https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/. URL: https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/. Buttons: 0, Headings: 0.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-15-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-15.mp3",
+      "audioUrl": "/audio/slide-15.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 15,
+      "slide": "Page: デンソー、SaaSで本腰 — 新興国発のSolwerサービスを先進国へ - SOLWER India Blog",
+      "narration": "Finally, let's review slide 16: Page: デンソー、SaaSで本腰 — 新興国発のSolwerサービスを先進国へ - SOLWER India Blog. URL: https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion. Buttons: 9, Headings: 6.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-16-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-16.mp3",
+      "audioUrl": "/audio/slide-16.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 16,
+      "slide": "Page: How Predicting Demand Improves Inventory and Logistics: A Roadmap to Superior Supply Chain Performance - SOLWER India Blog",
+      "narration": "Finally, let's review slide 17: Page: How Predicting Demand Improves Inventory and Logistics: A Roadmap to Superior Supply Chain Performance - SOLWER India Blog. URL: https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics. Buttons: 9, Headings: 28.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-17-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-17.mp3",
+      "audioUrl": "/audio/slide-17.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 17,
+      "slide": "Page: Navigating Logistics Complexity: Breaking the Barriers to Supply Chain Visibility - SOLWER India Blog",
+      "narration": "Finally, let's review slide 18: Page: Navigating Logistics Complexity: Breaking the Barriers to Supply Chain Visibility - SOLWER India Blog. URL: https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility. Buttons: 9, Headings: 10.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-18-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-18.mp3",
+      "audioUrl": "/audio/slide-18.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 18,
+      "slide": "Page: https://www.denso.com/in/en/privacy-policy/",
+      "narration": "Finally, let's review slide 19: Page: https://www.denso.com/in/en/privacy-policy/. URL: https://www.denso.com/in/en/privacy-policy/. Buttons: 0, Headings: 0.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-19-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-19.mp3",
+      "audioUrl": "/audio/slide-19.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 19,
+      "slide": "Integrations & Forms",
+      "narration": "Finally, let's review integrations and forms detected. We identified forms with inputs detected: 9 across the site, along with embedded iframes and third-party scripts such as reCAPTCHA and analytics tools.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-20-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-20.mp3",
+      "audioUrl": "/audio/slide-20.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 20,
+      "slide": "Test Results",
+      "narration": "Finally, let's review our test results. Total Tests: 45. Passed: 41. Failed: 4. Pass Rate: 91.1%. Some tests failed — please review.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-21-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-21.mp3",
+      "audioUrl": "/audio/slide-21.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 21,
+      "slide": "Failures",
+      "narration": "Finally, let's review the critical failures identified during testing. https://beta.solwerindia.com/: Home Flow: Play video - No YouTube iframe found. https://beta.solwerindia.com/: Home Flow: Section: Recent Blogs - locator.scrollIntoViewIfNeeded: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Recent Blogs').first()\u001b[22m\n. https://beta.solwerindia.com/: Home Flow: Action: View all blogs - Element not found. These issues need immediate attention before deployment.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-22-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-22.mp3",
+      "audioUrl": "/audio/slide-22.mp3",
+      "format": "mp3"
+    },
+    {
+      "index": 22,
+      "slide": "Visual Captures",
+      "narration": "Finally, let's review the visual captures taken by the Media Agent. Full-page screenshots were recorded for each page crawled, allowing for visual regression comparison in future runs.",
+      "textFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-23-narration.txt",
+      "audioFile": "F:\\beta.solwer\\ai-automation-framework\\audio\\slide-23.mp3",
+      "audioUrl": "/audio/slide-23.mp3",
+      "format": "mp3"
+    }
+  ]
+}

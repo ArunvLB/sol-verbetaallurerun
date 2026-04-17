@@ -1,0 +1,13 @@
+{
+  "runId": "run-1774425471980",
+  "url": "https://example.com",
+  "timestamp": "2026-03-25T07:57:51.980Z",
+  "summary": {
+    "totalTests": 2,
+    "passed": 2,
+    "failed": 0,
+    "pagesScanned": 1
+  },
+  "failures": [],
+  "screenshots": 1
+}

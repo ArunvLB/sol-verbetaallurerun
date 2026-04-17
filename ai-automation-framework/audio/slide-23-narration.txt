@@ -1,0 +1,1 @@
+Finally, let's review the visual captures taken by the Media Agent. Full-page screenshots were recorded for each page crawled, allowing for visual regression comparison in future runs.

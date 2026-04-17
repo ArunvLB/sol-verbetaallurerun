@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AI Automation Subset Suite" parallel="false">
+  <listeners>
+    <listener class-name="com.ai.automation.utils.AllureTestListener"/>
+    <listener class-name="com.ai.automation.utils.ConsoleLoggerListener"/>
+  </listeners>
+  <test name="First 78 Tests">
+    <classes>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_1Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_2Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_3Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_4Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_5Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_6Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_7Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_8Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_9Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_10Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_11Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_12Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_13Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_14Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_15Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_16Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_17Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_18Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_19Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_20Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_21Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_22Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_23Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_24Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_25Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_26Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_27Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_28Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_29Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_30Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_31Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_32Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_33Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_34Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_35Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_36Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_37Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_38Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_39Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_40Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_41Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_42Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_43Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_44Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_45Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_46Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_47Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_48Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_49Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_50Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_51Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_52Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_53Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_54Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_55Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_56Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_57Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_58Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_59Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_60Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_61Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_62Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_63Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_64Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_65Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_66Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_67Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_68Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_69Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_70Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_71Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_72Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_73Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_74Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_75Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_76Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_77Test"/>
+      <class name="com.ai.automation.generated.TC_beta_solwerindia_com_78Test"/>
+    </classes>
+  </test>
+</suite>

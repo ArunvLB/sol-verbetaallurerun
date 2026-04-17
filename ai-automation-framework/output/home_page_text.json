@@ -1,0 +1,277 @@
+[
+  {
+    "text": "Home",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "Solutions",
+    "tag": "button",
+    "sectionId": ""
+  },
+  {
+    "text": "▾",
+    "tag": "span",
+    "sectionId": ""
+  },
+  {
+    "text": "▴",
+    "tag": "span",
+    "sectionId": ""
+  },
+  {
+    "text": "Solutions Overview",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "Digital Tools",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "Videos",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "Brochures",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "News",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "E-learning Modules",
+    "tag": "button",
+    "sectionId": ""
+  },
+  {
+    "text": "▾",
+    "tag": "span",
+    "sectionId": ""
+  },
+  {
+    "text": "▴",
+    "tag": "span",
+    "sectionId": ""
+  },
+  {
+    "text": "Programs",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "Blogs",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "Join Us",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "Contact Us",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "const t=()=>{const e=document.querySelector(\"#main-navigation\");e&&e.classList.toggle(\"show\")},n=document.querySelector(\"#mobile-burger-menu\"),o=document.querySelector(\"#mobile-menu-close\");n&&n.addEventListener(\"click\",t);o&&o.addEventListener(\"click\",t);",
+    "tag": "script",
+    "sectionId": ""
+  },
+  {
+    "text": "Our",
+    "tag": "h1",
+    "sectionId": ""
+  },
+  {
+    "text": "News",
+    "tag": "span",
+    "sectionId": ""
+  },
+  {
+    "text": "Get the latest updates, in-depth blog posts, behind-the-scenes insights\n      and announcements at Solwer—all in one place.",
+    "tag": "p",
+    "sectionId": ""
+  },
+  {
+    "text": "Denso and Fujitsu exhibit at India AI Summit, tapping into huge market of 1.4 billion people",
+    "tag": "h2",
+    "sectionId": ""
+  },
+  {
+    "text": "February 23, 2026",
+    "tag": "div",
+    "sectionId": ""
+  },
+  {
+    "text": "Business",
+    "tag": "span",
+    "sectionId": ""
+  },
+  {
+    "text": "Keep reading →",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "デンソーが挑む“インド発グローバル開発”Findy Team+で実現した“共通指標”によるマネジメント改革",
+    "tag": "h2",
+    "sectionId": ""
+  },
+  {
+    "text": "December 23, 2025",
+    "tag": "div",
+    "sectionId": ""
+  },
+  {
+    "text": "Business",
+    "tag": "span",
+    "sectionId": ""
+  },
+  {
+    "text": "Keep reading →",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "インドへの進出には、確かな戦略と方法論が必要",
+    "tag": "h2",
+    "sectionId": ""
+  },
+  {
+    "text": "December 5, 2025",
+    "tag": "div",
+    "sectionId": ""
+  },
+  {
+    "text": "Business",
+    "tag": "span",
+    "sectionId": ""
+  },
+  {
+    "text": "Keep reading →",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "Launched the GCC Innovation Promotion Program to support the creation of innovation by global companies",
+    "tag": "h2",
+    "sectionId": ""
+  },
+  {
+    "text": "October 24, 2025",
+    "tag": "div",
+    "sectionId": ""
+  },
+  {
+    "text": "Business",
+    "tag": "span",
+    "sectionId": ""
+  },
+  {
+    "text": "Keep reading →",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "Dream Incubator and DENSO Launch Demonstration Project for Digital Platform Development",
+    "tag": "h2",
+    "sectionId": ""
+  },
+  {
+    "text": "August 7, 2025",
+    "tag": "div",
+    "sectionId": ""
+  },
+  {
+    "text": "Business",
+    "tag": "span",
+    "sectionId": ""
+  },
+  {
+    "text": "Keep reading →",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "DENSO to Exhibit at Bharat Mobility Global Expo 2025",
+    "tag": "h2",
+    "sectionId": ""
+  },
+  {
+    "text": "January 20, 2025",
+    "tag": "div",
+    "sectionId": ""
+  },
+  {
+    "text": "Business",
+    "tag": "span",
+    "sectionId": ""
+  },
+  {
+    "text": "Keep reading →",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "Blowhorn joins hands with DENSO International India Pvt. Ltd. (DENSO) and Honda",
+    "tag": "h2",
+    "sectionId": ""
+  },
+  {
+    "text": "March 29, 2023",
+    "tag": "div",
+    "sectionId": ""
+  },
+  {
+    "text": "Business",
+    "tag": "span",
+    "sectionId": ""
+  },
+  {
+    "text": "Keep reading →",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "データ活用で低温物流を改善\nデンソー、ＥＣ配送の実証事業",
+    "tag": "h2",
+    "sectionId": ""
+  },
+  {
+    "text": "August 30, 2022",
+    "tag": "div",
+    "sectionId": ""
+  },
+  {
+    "text": "Business",
+    "tag": "span",
+    "sectionId": ""
+  },
+  {
+    "text": "Keep reading →",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "Privacy Policy",
+    "tag": "a",
+    "sectionId": ""
+  },
+  {
+    "text": "↑",
+    "tag": "button",
+    "sectionId": ""
+  },
+  {
+    "text": "const e=document.querySelector(\"#app-scroll-to-top\");if(e){let o=!1;const t=()=>{o||(window.requestAnimationFrame(()=>{window.scrollY>200?e.classList.remove(\"d-none\"):e.classList.add(\"d-none\"),o=!1}),o=!0)};window.addEventListener(\"scroll\",t),e.addEventListener(\"click\",()=>{window.scrollTo({top:0,behavior:\"smooth\"})})}",
+    "tag": "script",
+    "sectionId": ""
+  }
+]

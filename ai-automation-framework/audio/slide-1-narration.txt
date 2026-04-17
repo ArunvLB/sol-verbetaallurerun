@@ -1,0 +1,1 @@
+Let's begin with an overview of the automated test run. Automated testing for https://beta.solwerindia.com/ The analysis was performed on Total Pages Scanned: 17, giving us a comprehensive view of the site's current state.

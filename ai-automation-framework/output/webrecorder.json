@@ -1,0 +1,180 @@
+{
+  "title": "Auto recording 2026-03-31T11:43:44.298Z",
+  "steps": [
+    {
+      "type": "setViewport",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "type": "navigate",
+      "url": "https://beta.solwerindia.com/",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://beta.solwerindia.com/"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://beta.solwerindia.com/solutions",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://beta.solwerindia.com/solutions"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://beta.solwerindia.com/digital-tools",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://beta.solwerindia.com/digital-tools"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://www.youtube.com/@SolwerIndiaOfficial",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://www.youtube.com/@SolwerIndiaOfficial"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://beta.solwerindia.com/brochures",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://beta.solwerindia.com/brochures"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://beta.solwerindia.com/news",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://beta.solwerindia.com/news"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://beta.solwerindia.com/contact-building",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://beta.solwerindia.com/contact-building"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://beta.solwerindia.com/blogs",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://beta.solwerindia.com/blogs"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://beta.solwerindia.com/jobs",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://beta.solwerindia.com/jobs"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://beta.solwerindia.com/contact",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://beta.solwerindia.com/contact"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://jp.findy-team.io/case/denso_international_india/",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://jp.findy-team.io/case/denso_international_india/"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility"
+        }
+      ]
+    },
+    {
+      "type": "navigate",
+      "url": "https://www.denso.com/in/en/privacy-policy/",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://www.denso.com/in/en/privacy-policy/"
+        }
+      ]
+    }
+  ]
+}

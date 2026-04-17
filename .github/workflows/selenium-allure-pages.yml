@@ -1,0 +1,85 @@
+name: Selenium Allure Pages
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: selenium-allure-pages
+  cancel-in-progress: true
+
+jobs:
+  test-and-publish:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: powershell
+        working-directory: ai-automation-framework/tests/selenium
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: maven
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: ai-automation-framework/package-lock.json
+
+      - name: Set up GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Run Selenium TestNG suite
+        run: .\mvnw.cmd clean test allure:report "-Dsurefire.suiteXmlFiles=testng-first-78.xml" "-Dmaven.test.failure.ignore=true"
+
+      - name: Generate Allure HTML report
+        run: npx --yes allure-commandline@2.34.1 generate ".\target\allure-results" -o ".\target\allure-report" --clean
+
+      - name: Upload Allure results artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: ai-automation-framework/tests/selenium/target/allure-results
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Upload Surefire reports artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: surefire-reports
+          path: ai-automation-framework/tests/selenium/target/surefire-reports
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Upload GitHub Pages artifact
+        if: always()
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ai-automation-framework/tests/selenium/target/allure-report
+
+  deploy:
+    needs: test-and-publish
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

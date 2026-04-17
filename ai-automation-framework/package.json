@@ -1,0 +1,34 @@
+{
+  "name": "ai-automation-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "run-all": "ts-node run-all.ts",
+    "present": "ts-node present.ts",
+    "present:auto": "ts-node present.ts --auto --delay=3000",
+    "present-ui": "cd presentation-renderer && node server.cjs",
+    "present-ui:build": "cd presentation-renderer && npm run build && node server.cjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/pdfkit": "^0.17.5",
+    "allure-playwright": "^3.6.0",
+    "commander": "^14.0.3",
+    "node-gtts": "^2.0.2",
+    "pdfkit": "^0.18.0",
+    "playwright": "^1.58.2",
+    "pptxgenjs": "^4.0.1",
+    "say": "^0.16.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0"
+  }
+}

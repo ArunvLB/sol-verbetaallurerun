@@ -1,0 +1,13 @@
+{
+  "runId": "run-1774601813110",
+  "url": "https://beta.solwerindia.com/",
+  "timestamp": "2026-03-27T08:56:53.110Z",
+  "summary": {
+    "totalTests": 10,
+    "passed": 10,
+    "failed": 0,
+    "pagesScanned": 17
+  },
+  "failures": [],
+  "screenshots": 5
+}

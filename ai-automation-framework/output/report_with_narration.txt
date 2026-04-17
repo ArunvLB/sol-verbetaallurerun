@@ -1,0 +1,170 @@
+AI Automation Framework - Presentation Report
+Website: https://beta.solwerindia.com/
+With Narration: Yes
+==================================================
+
+Slide 1: Overview
+  Content: Automated testing for https://beta.solwerindia.com/
+  Narration: Let's begin with an overview of the automated test run. Automated testing for https://beta.solwerindia.com/ The analysis was performed on Total Pages Scanned: 17, giving us a comprehensive view of the site's current state.
+  Transition: Now let's move to Coverage...
+
+Slide 2: Coverage
+  Content: Pages discovered and mapped: 17
+  Narration: Now let's move to our page coverage. The discovery agent mapped 5 pages across the site, extracting buttons, headings, and key UI elements from each page for in-depth analysis.
+  Transition: Next, we analyze Page: SOLWER India: Automotive Innovation & Sustainable Solutions...
+
+Slide 3: Results
+  Content: Total Tests: 32
+
+Slide 4: Page: SOLWER India: Automotive Innovation & Sustainable Solutions
+  Page: https://beta.solwerindia.com/
+  - URL: https://beta.solwerindia.com/
+  - Buttons: 10, Headings: 19
+  - Forms: 0, Integrations: 0 iframes / 1 scripts
+  - Tests: 2 run
+  Narration: Next, we analyze slide 3: Page: SOLWER India: Automotive Innovation & Sustainable Solutions. URL: https://beta.solwerindia.com/. Buttons: 10, Headings: 19.
+  Transition: Moving on, let's examine Page: SOLWER India: IoT, AI, Innovative Technology...
+
+Slide 5: Page: SOLWER India: IoT, AI, Innovative Technology
+  Page: https://beta.solwerindia.com/solutions
+  - URL: https://beta.solwerindia.com/solutions
+  - Buttons: 12, Headings: 8
+  - Forms: 1, Integrations: 3 iframes / 3 scripts
+  - Tests: 2 run
+  Narration: Moving on, let's examine slide 4: Page: SOLWER India: IoT, AI, Innovative Technology. URL: https://beta.solwerindia.com/solutions. Buttons: 12, Headings: 8.
+  Transition: Finally, let's review Page: Digital Tools - SOLWER India | Innovative Technology Solutions...
+
+Slide 6: Page: Digital Tools - SOLWER India | Innovative Technology Solutions
+  Page: https://beta.solwerindia.com/digital-tools
+  - URL: https://beta.solwerindia.com/digital-tools
+  - Buttons: 11, Headings: 9
+  - Forms: 0, Integrations: 2 iframes / 1 scripts
+  - Tests: 2 run
+  Narration: Next we move on to slide 5: Page: Digital Tools - SOLWER India | Innovative Technology Solutions. URL: https://beta.solwerindia.com/digital-tools. Buttons: 11, Headings: 9.
+  Transition: Next we move on to Page: Solwer India Official - YouTube...
+
+Slide 7: Page: Solwer India Official - YouTube
+  Page: https://www.youtube.com/@SolwerIndiaOfficial
+  - URL: https://www.youtube.com/@SolwerIndiaOfficial
+  - Buttons: 60, Headings: 3
+  - Forms: 2, Integrations: 2 iframes / 15 scripts
+  - Tests: 2 run
+  Narration: Next we move on to slide 6: Page: Solwer India Official - YouTube. URL: https://www.youtube.com/@SolwerIndiaOfficial. Buttons: 60, Headings: 3.
+  Transition: Next we move on to Page: SOLWER India - Data-Driven Sustainable Automotive Solutions...
+
+Slide 8: Page: SOLWER India - Data-Driven Sustainable Automotive Solutions
+  Page: https://beta.solwerindia.com/brochures
+  - URL: https://beta.solwerindia.com/brochures
+  - Buttons: 6, Headings: 2
+  - Forms: 1, Integrations: 3 iframes / 3 scripts
+  - Tests: 2 run
+  Narration: Next we move on to slide 10: Page: SOLWER India - Data-Driven Sustainable Automotive Solutions. URL: https://beta.solwerindia.com/blogs. Buttons: 27, Headings: 23.
+  Transition: Next we move on to Page: Careers & Jobs – SOLWER India | Join our Team...
+
+Slide 9: Page: SOLWER India - Data-Driven Sustainable Automotive Solutions
+  Page: https://beta.solwerindia.com/news
+  - URL: https://beta.solwerindia.com/news
+  - Buttons: 5, Headings: 9
+  - Forms: 0, Integrations: 0 iframes / 1 scripts
+  - Tests: 2 run
+  Narration: Next we move on to slide 10: Page: SOLWER India - Data-Driven Sustainable Automotive Solutions. URL: https://beta.solwerindia.com/blogs. Buttons: 27, Headings: 23.
+  Transition: Next we move on to Page: Careers & Jobs – SOLWER India | Join our Team...
+
+Slide 10: Page: SOLWER India - Data-Driven Sustainable Automotive Solutions
+  Page: https://beta.solwerindia.com/contact-building
+  - URL: https://beta.solwerindia.com/contact-building
+  - Buttons: 6, Headings: 9
+  - Forms: 1, Integrations: 3 iframes / 3 scripts
+  - Tests: 2 run
+  Narration: Next we move on to slide 10: Page: SOLWER India - Data-Driven Sustainable Automotive Solutions. URL: https://beta.solwerindia.com/blogs. Buttons: 27, Headings: 23.
+  Transition: Next we move on to Page: Careers & Jobs – SOLWER India | Join our Team...
+
+Slide 11: Page: SOLWER India - Data-Driven Sustainable Automotive Solutions
+  Page: https://beta.solwerindia.com/blogs
+  - URL: https://beta.solwerindia.com/blogs
+  - Buttons: 27, Headings: 23
+  - Forms: 0, Integrations: 0 iframes / 1 scripts
+  - Tests: 2 run
+  Narration: Next we move on to slide 10: Page: SOLWER India - Data-Driven Sustainable Automotive Solutions. URL: https://beta.solwerindia.com/blogs. Buttons: 27, Headings: 23.
+  Transition: Next we move on to Page: Careers & Jobs – SOLWER India | Join our Team...
+
+Slide 12: Page: Careers & Jobs – SOLWER India | Join our Team
+  Page: https://beta.solwerindia.com/jobs
+  - URL: https://beta.solwerindia.com/jobs
+  - Buttons: 5, Headings: 10
+  - Forms: 0, Integrations: 0 iframes / 1 scripts
+  - Tests: 2 run
+  Narration: Next we move on to slide 11: Page: Careers & Jobs – SOLWER India | Join our Team. URL: https://beta.solwerindia.com/jobs. Buttons: 5, Headings: 10.
+  Transition: Next we move on to Page: Contact Us - SOLWER India | Get in Touch for Automotive Solutions...
+
+Slide 13: Page: Contact Us - SOLWER India | Get in Touch for Automotive Solutions
+  Page: https://beta.solwerindia.com/contact
+  - URL: https://beta.solwerindia.com/contact
+  - Buttons: 6, Headings: 2
+  - Forms: 1, Integrations: 4 iframes / 3 scripts
+  - Tests: 2 run
+  Narration: Next we move on to slide 12: Page: Contact Us - SOLWER India | Get in Touch for Automotive Solutions. URL: https://beta.solwerindia.com/contact. Buttons: 6, Headings: 2.
+  Transition: Next we move on to Page: インドAIサミット、デンソーや富士通が出展　14億人巨大市場を開拓 - 日本経済新聞...
+
+Slide 14: Page: インドAIサミット、デンソーや富士通が出展　14億人巨大市場を開拓 - 日本経済新聞
+  Page: https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/
+  - URL: https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/
+  - Buttons: 50, Headings: 46
+  - Forms: 2, Integrations: 7 iframes / 10 scripts
+  - Tests: 2 run
+  Narration: Next we move on to slide 13: Page: インドAIサミット、デンソーや富士通が出展　14億人巨大市場を開拓 - 日本経済新聞. URL: https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/. Buttons: 50, Headings: 46.
+  Transition: Next we move on to Page: デンソーが挑む“インド発グローバル開発”Findy Team+で実現した“共通指標”によるマネジメント改革 | Findy Team+...
+
+Slide 15: Page: デンソーが挑む“インド発グローバル開発”Findy Team+で実現した“共通指標”によるマネジメント改革 | Findy Team+
+  Page: https://jp.findy-team.io/case/denso_international_india/
+  - URL: https://jp.findy-team.io/case/denso_international_india/
+  - Buttons: 4, Headings: 57
+  - Forms: 1, Integrations: 1 iframes / 21 scripts
+  - Tests: 2 run
+  Narration: Next we move on to slide 14: Page: デンソーが挑む“インド発グローバル開発”Findy Team+で実現した“共通指標”によるマネジメント改革 | Findy Team+. URL: https://jp.findy-team.io/case/denso_international_india/. Buttons: 4, Headings: 57.
+  Transition: Next we move on to Page: https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/...
+
+Slide 16: Page: https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/
+  Page: https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/
+  - URL: https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/
+  - Buttons: 0, Headings: 0
+  - Forms: 0, Integrations: 0 iframes / 0 scripts
+  - Tests: 0 run
+  Narration: Next we move on to slide 15: Page: https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/. URL: https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/. Buttons: 0, Headings: 0.
+  Transition: Next we move on to Page: デンソー、SaaSで本腰 — 新興国発のSolwerサービスを先進国へ - SOLWER India Blog...
+
+Slide 17: Page: デンソー、SaaSで本腰 — 新興国発のSolwerサービスを先進国へ - SOLWER India Blog
+  Page: https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion
+  - URL: https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion
+  - Buttons: 9, Headings: 6
+  - Forms: 1, Integrations: 3 iframes / 3 scripts
+  - Tests: 2 run
+  Narration: Next we move on to slide 16: Page: デンソー、SaaSで本腰 — 新興国発のSolwerサービスを先進国へ - SOLWER India Blog. URL: https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion. Buttons: 9, Headings: 6.
+  Transition: Next we move on to Page: How Predicting Demand Improves Inventory and Logistics: A Roadmap to Superior Supply Chain Performance - SOLWER India Blog...
+
+Slide 18: Page: How Predicting Demand Improves Inventory and Logistics: A Roadmap to Superior Supply Chain Performance - SOLWER India Blog
+  Page: https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics
+  - URL: https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics
+  - Buttons: 9, Headings: 28
+  - Forms: 1, Integrations: 3 iframes / 3 scripts
+  - Tests: 2 run
+  Narration: Next we move on to slide 17: Page: How Predicting Demand Improves Inventory and Logistics: A Roadmap to Superior Supply Chain Performance - SOLWER India Blog. URL: https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics. Buttons: 9, Headings: 28.
+  Transition: Next we move on to Page: Navigating Logistics Complexity: Breaking the Barriers to Supply Chain Visibility - SOLWER India Blog...
+
+Slide 19: Page: Navigating Logistics Complexity: Breaking the Barriers to Supply Chain Visibility - SOLWER India Blog
+  Page: https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility
+  - URL: https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility
+  - Buttons: 9, Headings: 10
+  - Forms: 1, Integrations: 3 iframes / 3 scripts
+  - Tests: 2 run
+  Narration: Next we move on to slide 18: Page: Navigating Logistics Complexity: Breaking the Barriers to Supply Chain Visibility - SOLWER India Blog. URL: https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility. Buttons: 9, Headings: 10.
+  Transition: Next we move on to Page: Access Denied...
+
+Slide 20: Page: Access Denied
+  Page: https://www.denso.com/in/en/privacy-policy/
+  - URL: https://www.denso.com/in/en/privacy-policy/
+  - Buttons: 0, Headings: 1
+  - Forms: 0, Integrations: 0 iframes / 0 scripts
+  - Tests: 2 run
+  Narration: Next we move on to slide 19: Page: Access Denied. URL: https://www.denso.com/in/en/privacy-policy/. Buttons: 0, Headings: 1.
+  Transition: Next we move on to Integrations & Forms...

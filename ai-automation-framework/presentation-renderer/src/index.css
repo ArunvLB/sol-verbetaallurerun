@@ -1,0 +1,35 @@
+/* ==================== GLOBAL RESET & TOKENS ==================== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0b0f1a;
+  --surface: #111827;
+  --surface-2: #1a2236;
+  --border: #1e2d45;
+  --accent: #4f8ef7;
+  --accent-dim: #1e3a6e;
+  --pass: #22c55e;
+  --fail: #ef4444;
+  --info: #60a5fa;
+  --warn: #facc15;
+  --text: #e2e8f0;
+  --text-muted: #94a3b8;
+  --font: 'Inter', 'Segoe UI', sans-serif;
+  --radius: 14px;
+  --shadow: 0 8px 32px rgba(0,0,0,0.5);
+  --slide-shadow: 0 20px 80px rgba(0,0,0,0.6);
+}
+
+html, body, #root { height: 100%; width: 100%; overflow: hidden; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }

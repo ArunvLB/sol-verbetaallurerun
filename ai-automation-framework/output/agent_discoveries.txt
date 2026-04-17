@@ -1,0 +1,257 @@
+==================================================
+AI Automation Framework - Agent Discovery Report
+Website: https://beta.solwerindia.com/
+==================================================
+
+1. PAGE DISCOVERY AGENT
+-----------------------
+Pages discovered and mapped for analysis: 17
+  1. https://beta.solwerindia.com/
+  2. https://beta.solwerindia.com/solutions
+  3. https://beta.solwerindia.com/digital-tools
+  4. https://www.youtube.com/@SolwerIndiaOfficial
+  5. https://beta.solwerindia.com/brochures
+  6. https://beta.solwerindia.com/news
+  7. https://beta.solwerindia.com/contact-building
+  8. https://beta.solwerindia.com/blogs
+  9. https://beta.solwerindia.com/jobs
+  10. https://beta.solwerindia.com/contact
+  11. https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/
+  12. https://jp.findy-team.io/case/denso_international_india/
+  13. https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/
+  14. https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion
+  15. https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics
+  16. https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility
+  17. https://www.denso.com/in/en/privacy-policy/
+
+2. NAVIGATION AGENT
+-------------------
+Captured routing states:
+- Title for https://beta.solwerindia.com/: "SOLWER India - Data-Driven Sustainable Automotive Solutions"
+- Title for https://beta.solwerindia.com/solutions: "SOLWER India: IoT, AI, Innovative Technology"
+- Title for https://beta.solwerindia.com/digital-tools: "Digital Tools - SOLWER India | Innovative Technology Solutions"
+- Title for https://www.youtube.com/@SolwerIndiaOfficial: "Solwer India Official - YouTube"
+- Title for https://beta.solwerindia.com/brochures: "SOLWER India - Data-Driven Sustainable Automotive Solutions"
+- Title for https://beta.solwerindia.com/news: "SOLWER India - Data-Driven Sustainable Automotive Solutions"
+- Title for https://beta.solwerindia.com/contact-building: "SOLWER India - Data-Driven Sustainable Automotive Solutions"
+- Title for https://beta.solwerindia.com/blogs: "SOLWER India - Data-Driven Sustainable Automotive Solutions"
+- Title for https://beta.solwerindia.com/jobs: "Careers & Jobs – SOLWER India | Join our Team"
+- Title for https://beta.solwerindia.com/contact: "Contact Us - SOLWER India | Get in Touch for Automotive Solutions"
+- Title for https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/: "ログイン | NIKKEI ID"
+- Title for https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion: "デンソー、SaaSで本腰 — 新興国発のSolwerサービスを先進国へ - SOLWER India Blog"
+- Title for https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics: "How Predicting Demand Improves Inventory and Logistics: A Roadmap to Superior Supply Chain Performance - SOLWER India Blog"
+- Title for https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility: "Navigating Logistics Complexity: Breaking the Barriers to Supply Chain Visibility - SOLWER India Blog"
+
+3. DOM EXTRACTION AGENT
+-----------------------
+- On https://beta.solwerindia.com/: 5 buttons, 9 text headings.
+- On https://beta.solwerindia.com/solutions: 12 buttons, 8 text headings.
+- On https://beta.solwerindia.com/digital-tools: 11 buttons, 9 text headings.
+- On https://www.youtube.com/@SolwerIndiaOfficial: 5 buttons, 0 text headings.
+- On https://beta.solwerindia.com/brochures: 6 buttons, 2 text headings.
+- On https://beta.solwerindia.com/news: 5 buttons, 9 text headings.
+- On https://beta.solwerindia.com/contact-building: 6 buttons, 9 text headings.
+- On https://beta.solwerindia.com/blogs: 27 buttons, 23 text headings.
+- On https://beta.solwerindia.com/jobs: 5 buttons, 10 text headings.
+- On https://beta.solwerindia.com/contact: 6 buttons, 2 text headings.
+- On https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/: 48 buttons, 46 text headings.
+- On https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion: 9 buttons, 6 text headings.
+- On https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics: 9 buttons, 28 text headings.
+- On https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility: 9 buttons, 10 text headings.
+
+4. FORM ANALYSIS AGENT
+----------------------
+- On https://beta.solwerindia.com/: 0 forms
+- On https://beta.solwerindia.com/solutions: 1 forms
+  -> Inputs: name, email, phoneNumber, organizationName, designation, preferredDemoDate, message, g-recaptcha-response
+- On https://beta.solwerindia.com/digital-tools: 0 forms
+- On https://www.youtube.com/@SolwerIndiaOfficial: 2 forms
+  -> Inputs: search_query
+  -> Inputs: query
+- On https://beta.solwerindia.com/brochures: 1 forms
+  -> Inputs: name, email, companyName, phoneNumber, brochure, g-recaptcha-response
+- On https://beta.solwerindia.com/news: 0 forms
+- On https://beta.solwerindia.com/contact-building: 1 forms
+  -> Inputs: firstName, lastName, email, phoneNumber, country, region, gender, companyName, department, jobTitle, interviewConsent, interviewConsent, heardAbout, heardAbout, heardAbout, heardAbout, heardAbout, dataConsent, certificationConsent, marketingConsent, g-recaptcha-response
+- On https://beta.solwerindia.com/blogs: 0 forms
+- On https://beta.solwerindia.com/jobs: 0 forms
+- On https://beta.solwerindia.com/contact: 1 forms
+  -> Inputs: name, company, email, phone, message, g-recaptcha-response
+- On https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/: 1 forms
+  -> Inputs: email, 
+- On https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion: 1 forms
+  -> Inputs: name, email, phoneNumber, organizationName, designation, preferredDemoDate, message, g-recaptcha-response
+- On https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics: 1 forms
+  -> Inputs: name, email, phoneNumber, organizationName, designation, preferredDemoDate, message, g-recaptcha-response
+- On https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility: 1 forms
+  -> Inputs: name, email, phoneNumber, organizationName, designation, preferredDemoDate, message, g-recaptcha-response
+
+5. INTEGRATION AGENT
+--------------------
+- On https://beta.solwerindia.com/: 0 iframes, 1 external scripts.
+- On https://beta.solwerindia.com/solutions: 3 iframes, 3 external scripts.
+- On https://beta.solwerindia.com/digital-tools: 2 iframes, 1 external scripts.
+- On https://www.youtube.com/@SolwerIndiaOfficial: 2 iframes, 16 external scripts.
+- On https://beta.solwerindia.com/brochures: 3 iframes, 3 external scripts.
+- On https://beta.solwerindia.com/news: 0 iframes, 1 external scripts.
+- On https://beta.solwerindia.com/contact-building: 3 iframes, 3 external scripts.
+- On https://beta.solwerindia.com/blogs: 0 iframes, 1 external scripts.
+- On https://beta.solwerindia.com/jobs: 0 iframes, 1 external scripts.
+- On https://beta.solwerindia.com/contact: 4 iframes, 3 external scripts.
+- On https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/: 2 iframes, 4 external scripts.
+- On https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion: 3 iframes, 3 external scripts.
+- On https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics: 3 iframes, 3 external scripts.
+- On https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility: 3 iframes, 3 external scripts.
+
+6. TEST CASE WRITER AGENT
+-------------------------
+- Total test cases designed: 244
+- Breakdown: positive=155, negative=35, edge=54
+
+7. TEST AGENT
+-------------
+- Total tests executed: 45
+- Passed: 41
+- Failed: 4
+
+8. MEDIA AGENT
+--------------
+- Screenshots captured:
+  -> F:\beta.solwer\ai-automation-framework\reports\screenshots/screenshot_https___beta_solwerindia_com_.png
+  -> F:\beta.solwer\ai-automation-framework\reports\screenshots/screenshot_https___beta_solwerindia_com_solutions.png
+  -> F:\beta.solwer\ai-automation-framework\reports\screenshots/screenshot_https___beta_solwerindia_com_digital_tools.png
+  -> F:\beta.solwer\ai-automation-framework\reports\screenshots/screenshot_https___www_youtube_com__solwerindiaofficial.png
+  -> F:\beta.solwer\ai-automation-framework\reports\screenshots/screenshot_https___beta_solwerindia_com_brochures.png
+  -> F:\beta.solwer\ai-automation-framework\reports\screenshots/screenshot_https___beta_solwerindia_com_news.png
+  -> F:\beta.solwer\ai-automation-framework\reports\screenshots/screenshot_https___beta_solwerindia_com_contact_building.png
+  -> F:\beta.solwer\ai-automation-framework\reports\screenshots/screenshot_https___beta_solwerindia_com_blogs.png
+  -> F:\beta.solwer\ai-automation-framework\reports\screenshots/screenshot_https___beta_solwerindia_com_jobs.png
+  -> F:\beta.solwer\ai-automation-framework\reports\screenshots/screenshot_https___beta_solwerindia_com_contact.png
+  -> F:\beta.solwer\ai-automation-framework\reports\screenshots/screenshot_https___www_nikkei_com_article_dgxzqouc152nq0v10c26a2000000_.png
+  -> F:\beta.solwer\ai-automation-framework\reports\screenshots/screenshot_https___beta_solwerindia_com_blog_2025_denso_solwer_saas_global_expansion.png
+  -> F:\beta.solwer\ai-automation-framework\reports\screenshots/screenshot_https___beta_solwerindia_com_blog_2025_how_predicting_demand_improves_inventory_and_logistics.png
+  -> F:\beta.solwer\ai-automation-framework\reports\screenshots/screenshot_https___beta_solwerindia_com_blog_2025_breaking_the_barriers_to_supply_chain_visibility.png
+
+9. REPORT & PRESENTATION AGENTS
+-------------------------------
+- Generated results.json
+- Generated presentation.json
+- Generated agent_discoveries.txt
+
+10. HOME PAGE FLOW AGENT
+-----------------------
+- Hero: Empowering Supply Chain and Value Chain Excellence: pass
+- Section: Current Ecosystem Challenges: pass
+- Play video: skip (No YouTube iframe found)
+- Section: Building Interconnected Ecosystems for the Future: pass
+- Section: Seamless Access to the Mobility Aftermarket: pass
+- Section: Vehicle Digital Inspection: pass
+- Section: Customer and Business Impact: pass
+- Action: Download brochure: pass
+- Section: Digital Solutions for Sustainable Growth: pass
+- Section: Quantifiable Growth: pass
+- Section: Latest News: pass
+- Action: View all news: pass
+- Section: Recent Blogs: fail (locator.scrollIntoViewIfNeeded: Timeout 25000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Recent Blogs').first()[22m
+)
+- Action: View all blogs: skip (Element not found)
+- Scroll bottom: pass
+- Action: Back to top: skip (Top button not found)
+- Capture: All text content: pass (Captured 55 entries)
+- Captured text nodes on home: 55
+
+11. CLICK AGENT (sampled clickable elements)
+-------------------------------------------
+- https://beta.solwerindia.com/: 0 clicks tried
+- https://beta.solwerindia.com/solutions: 5 clicks tried
+  1. a "" -> navigated; pre: https://beta.solwerindia.com/solutions/; post: https://beta.solwerindia.com/
+  2. a "Home" -> navigated; pre: https://beta.solwerindia.com/solutions/; post: https://beta.solwerindia.com/
+  3. button "Solutions ▾" -> no nav; pre: https://beta.solwerindia.com/solutions/; post: https://beta.solwerindia.com/solutions/
+  4. a "Solutions Overview" -> navigated; pre: https://beta.solwerindia.com/solutions/; post: https://beta.solwerindia.com/solutions/
+  5. a "Brochures" -> navigated; pre: https://beta.solwerindia.com/solutions/; post: https://beta.solwerindia.com/brochures/
+- https://beta.solwerindia.com/digital-tools: 5 clicks tried
+  1. a "" -> navigated; pre: https://beta.solwerindia.com/digital-tools/; post: https://beta.solwerindia.com/
+  2. a "Home" -> navigated; pre: https://beta.solwerindia.com/digital-tools/; post: https://beta.solwerindia.com/
+  3. button "Solutions ▾" -> no nav; pre: https://beta.solwerindia.com/digital-tools/; post: https://beta.solwerindia.com/digital-tools/
+  4. a "Solutions Overview" -> navigated; pre: https://beta.solwerindia.com/digital-tools/; post: https://beta.solwerindia.com/solutions/
+  5. a "Brochures" -> navigated; pre: https://beta.solwerindia.com/digital-tools/; post: https://beta.solwerindia.com/brochures/
+- https://www.youtube.com/@SolwerIndiaOfficial: 1 clicks tried
+  1. button "" -> no nav; pre: https://www.youtube.com/@SolwerIndiaOfficial; post: https://www.youtube.com/@SolwerIndiaOfficial
+- https://beta.solwerindia.com/brochures: 5 clicks tried
+  1. a "" -> navigated; pre: https://beta.solwerindia.com/brochures/; post: https://beta.solwerindia.com/
+  2. a "Home" -> navigated; pre: https://beta.solwerindia.com/brochures/; post: https://beta.solwerindia.com/
+  3. button "Solutions ▾" -> no nav; pre: https://beta.solwerindia.com/brochures/; post: https://beta.solwerindia.com/brochures/
+  4. a "Solutions Overview" -> navigated; pre: https://beta.solwerindia.com/brochures/; post: https://beta.solwerindia.com/solutions/
+  5. a "Brochures" -> navigated; pre: https://beta.solwerindia.com/brochures/; post: https://beta.solwerindia.com/brochures/
+- https://beta.solwerindia.com/news: 5 clicks tried
+  1. a "" -> navigated; pre: https://beta.solwerindia.com/news/; post: https://beta.solwerindia.com/
+  2. a "Home" -> navigated; pre: https://beta.solwerindia.com/news/; post: https://beta.solwerindia.com/
+  3. button "Solutions ▾" -> no nav; pre: https://beta.solwerindia.com/news/; post: https://beta.solwerindia.com/news/
+  4. a "Solutions Overview" -> navigated; pre: https://beta.solwerindia.com/news/; post: https://beta.solwerindia.com/solutions/
+  5. a "Brochures" -> navigated; pre: https://beta.solwerindia.com/news/; post: https://beta.solwerindia.com/brochures/
+- https://beta.solwerindia.com/contact-building: 5 clicks tried
+  1. a "" -> navigated; pre: https://beta.solwerindia.com/contact-building/; post: https://beta.solwerindia.com/
+  2. a "Home" -> navigated; pre: https://beta.solwerindia.com/contact-building/; post: https://beta.solwerindia.com/
+  3. button "Solutions ▾" -> no nav; pre: https://beta.solwerindia.com/contact-building/; post: https://beta.solwerindia.com/contact-building/
+  4. a "Solutions Overview" -> navigated; pre: https://beta.solwerindia.com/contact-building/; post: https://beta.solwerindia.com/solutions/
+  5. a "Brochures" -> navigated; pre: https://beta.solwerindia.com/contact-building/; post: https://beta.solwerindia.com/brochures/
+- https://beta.solwerindia.com/blogs: 5 clicks tried
+  1. a "" -> navigated; pre: https://beta.solwerindia.com/blogs/; post: https://beta.solwerindia.com/
+  2. a "Home" -> navigated; pre: https://beta.solwerindia.com/blogs/; post: https://beta.solwerindia.com/
+  3. button "Solutions ▾" -> no nav; pre: https://beta.solwerindia.com/blogs/; post: https://beta.solwerindia.com/blogs/
+  4. a "Solutions Overview" -> navigated; pre: https://beta.solwerindia.com/blogs/; post: https://beta.solwerindia.com/solutions/
+  5. a "Brochures" -> navigated; pre: https://beta.solwerindia.com/blogs/; post: https://beta.solwerindia.com/brochures/
+- https://beta.solwerindia.com/jobs: 5 clicks tried
+  1. a "" -> navigated; pre: https://beta.solwerindia.com/jobs/; post: https://beta.solwerindia.com/
+  2. a "Home" -> navigated; pre: https://beta.solwerindia.com/jobs/; post: https://beta.solwerindia.com/
+  3. button "Solutions ▾" -> no nav; pre: https://beta.solwerindia.com/jobs/; post: https://beta.solwerindia.com/jobs/
+  4. a "Solutions Overview" -> navigated; pre: https://beta.solwerindia.com/jobs/; post: https://beta.solwerindia.com/solutions/
+  5. a "Brochures" -> navigated; pre: https://beta.solwerindia.com/jobs/; post: https://beta.solwerindia.com/brochures/
+- https://beta.solwerindia.com/contact: 5 clicks tried
+  1. a "" -> navigated; pre: https://beta.solwerindia.com/contact/; post: https://beta.solwerindia.com/
+  2. a "Home" -> navigated; pre: https://beta.solwerindia.com/contact/; post: https://beta.solwerindia.com/
+  3. button "Solutions ▾" -> no nav; pre: https://beta.solwerindia.com/contact/; post: https://beta.solwerindia.com/contact/
+  4. a "Solutions Overview" -> navigated; pre: https://beta.solwerindia.com/contact/; post: https://beta.solwerindia.com/solutions/
+  5. a "Brochures" -> navigated; pre: https://beta.solwerindia.com/contact/; post: https://beta.solwerindia.com/brochures/
+- https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/: 5 clicks tried
+  1. button "検索" -> navigated; pre: https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/; post: https://www.nikkei.com/search?keyword=
+  2. a "お申し込み" -> navigated; pre: https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/; post: https://regist.nikkei.com/r123/?n_cid=DSPRM1HR01
+  3. a "ログイン" -> navigated; pre: https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/; post: https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/; error: locator.click: Timeout 5000ms exceeded.
+Call log:
+[2m  - waiting for locator('a[href]:visible, button:visible, [role="button"]:visible').filter({ hasText: /./ }).nth(2)[22m
+[2m    - locator resolved to <a href="/login" data-rn-track="header_login" data-rn-track-ga-action="header_login" data-rn-track-ga-category="login_flow" class="accountNavItem_a1pb0gw3 accountNavItemButton_aejtfta accountNavAnonymous_asdieia button_b3k06tb buttonSolid_b1i2z8b3 buttonPrimary_b14hsrqx">…</a>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+[2m    - click action done[22m
+[2m    - waiting for scheduled navigations to finish[22m
+
+  4. unknown "プライバシーポリシー" -> navigated; pre: https://id.nikkei.com/login/id; post: https://policies.google.com/privacy
+  5. a "利用規約" -> navigated; pre: https://id.nikkei.com/login/id; post: https://policies.google.com/terms
+- https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion: 5 clicks tried
+  1. a "" -> navigated; pre: https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion/; post: https://beta.solwerindia.com/
+  2. a "Home" -> navigated; pre: https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion/; post: https://beta.solwerindia.com/
+  3. button "Solutions ▾" -> no nav; pre: https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion/; post: https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion/
+  4. a "Solutions Overview" -> navigated; pre: https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion/; post: https://beta.solwerindia.com/solutions/
+  5. a "Brochures" -> navigated; pre: https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion/; post: https://beta.solwerindia.com/brochures/
+- https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics: 5 clicks tried
+  1. a "" -> navigated; pre: https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics/; post: https://beta.solwerindia.com/
+  2. a "Home" -> navigated; pre: https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics/; post: https://beta.solwerindia.com/
+  3. button "Solutions ▾" -> no nav; pre: https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics/; post: https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics/
+  4. a "Solutions Overview" -> navigated; pre: https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics/; post: https://beta.solwerindia.com/solutions/
+  5. a "Brochures" -> navigated; pre: https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics/; post: https://beta.solwerindia.com/brochures/
+- https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility: 5 clicks tried
+  1. a "" -> navigated; pre: https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility/; post: https://beta.solwerindia.com/
+  2. a "Home" -> navigated; pre: https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility/; post: https://beta.solwerindia.com/
+  3. button "Solutions ▾" -> no nav; pre: https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility/; post: https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility/
+  4. a "Solutions Overview" -> navigated; pre: https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility/; post: https://beta.solwerindia.com/solutions/
+  5. a "Brochures" -> navigated; pre: https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility/; post: https://beta.solwerindia.com/brochures/
+
+==================================================
+END OF REPORT
+==================================================

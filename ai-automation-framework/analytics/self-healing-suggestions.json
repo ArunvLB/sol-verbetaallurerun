@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-03-31T11:55:50.379Z",
+  "totalFailures": 4,
+  "healableCount": 4,
+  "items": [
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Play video",
+      "error": "No YouTube iframe found",
+      "severity": "low",
+      "suggestions": [
+        "Review error log and add explicit wait before failing selector"
+      ],
+      "autoHealable": true,
+      "status": "pending-review",
+      "timestamp": "2026-03-31T11:55:50.376Z"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Section: Recent Blogs",
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Recent Blogs').first()\u001b[22m\n",
+      "severity": "high",
+      "suggestions": [
+        "Increase navigation timeout in Config.TIMEOUT",
+        "Use page.waitForSelector() with longer timeout",
+        "Check network latency or page rendering delays"
+      ],
+      "autoHealable": true,
+      "status": "pending-review",
+      "timestamp": "2026-03-31T11:55:50.377Z"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Action: View all blogs",
+      "error": "Element not found",
+      "severity": "medium",
+      "suggestions": [
+        "Use more resilient locator: role-based or text-based selector",
+        "Alternative: page.getByRole('button', { name: '...' })",
+        "Alternative: page.getByText('...')"
+      ],
+      "autoHealable": true,
+      "status": "pending-review",
+      "timestamp": "2026-03-31T11:55:50.378Z"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Action: Back to top",
+      "error": "Top button not found",
+      "severity": "medium",
+      "suggestions": [
+        "Review error log and add explicit wait before failing selector"
+      ],
+      "autoHealable": true,
+      "status": "pending-review",
+      "timestamp": "2026-03-31T11:55:50.379Z"
+    }
+  ],
+  "note": "Suggestions are advisory only. Set autoHeal:true in config to apply automatically."
+}

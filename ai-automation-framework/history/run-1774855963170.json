@@ -1,0 +1,63 @@
+{
+  "runId": "run-1774855963170",
+  "url": "https://beta.solwerindia.com/",
+  "timestamp": "2026-03-30T07:32:43.170Z",
+  "summary": {
+    "totalTests": 49,
+    "passed": 41,
+    "failed": 8,
+    "pagesScanned": 17,
+    "testCasesDesigned": 273
+  },
+  "failures": [
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Play video",
+      "status": "fail",
+      "error": "No YouTube iframe found"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Section: Digital Solutions for Sustainable Growth",
+      "status": "fail",
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Digital Solutions for Sustainable Growth').first()\u001b[22m\n"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Section: Quantifiable Growth",
+      "status": "fail",
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Quantifiable Growth').first()\u001b[22m\n"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Section: Latest News",
+      "status": "fail",
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Latest News').first()\u001b[22m\n"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Action: View all news",
+      "status": "fail",
+      "error": "Element not found"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Section: Recent Blogs",
+      "status": "fail",
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Recent Blogs').first()\u001b[22m\n"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Action: View all blogs",
+      "status": "fail",
+      "error": "Element not found"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Action: Back to top",
+      "status": "fail",
+      "error": "Top button not found"
+    }
+  ],
+  "screenshots": 16
+}

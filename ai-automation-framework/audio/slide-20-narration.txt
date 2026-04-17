@@ -1,0 +1,1 @@
+Finally, let's review integrations and forms detected. We identified forms with inputs detected: 9 across the site, along with embedded iframes and third-party scripts such as reCAPTCHA and analytics tools.

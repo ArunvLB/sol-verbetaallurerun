@@ -1,0 +1,39 @@
+{
+  "runId": "run-1774958150343",
+  "url": "https://beta.solwerindia.com/",
+  "timestamp": "2026-03-31T11:55:50.343Z",
+  "summary": {
+    "totalTests": 45,
+    "passed": 41,
+    "failed": 4,
+    "pagesScanned": 17,
+    "testCasesDesigned": 244
+  },
+  "failures": [
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Play video",
+      "status": "fail",
+      "error": "No YouTube iframe found"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Section: Recent Blogs",
+      "status": "fail",
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Recent Blogs').first()\u001b[22m\n"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Action: View all blogs",
+      "status": "fail",
+      "error": "Element not found"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Action: Back to top",
+      "status": "fail",
+      "error": "Top button not found"
+    }
+  ],
+  "screenshots": 14
+}

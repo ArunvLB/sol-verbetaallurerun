@@ -1,0 +1,3565 @@
+[
+  {
+    "id": "TC-beta.solwerindia.com-1",
+    "page": "https://beta.solwerindia.com/",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load SOLWER India - Data-Driven Sustainable Automotive Solutions successfully",
+    "steps": [
+      "Open https://beta.solwerindia.com/",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-2",
+    "page": "https://beta.solwerindia.com/",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://beta.solwerindia.com/ (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-3",
+    "page": "https://beta.solwerindia.com/",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://beta.solwerindia.com/",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-4",
+    "page": "https://beta.solwerindia.com/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-menu-close"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-5",
+    "page": "https://beta.solwerindia.com/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Solutions ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"Solutions ▾\" on https://beta.solwerindia.com/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-6",
+    "page": "https://beta.solwerindia.com/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"E-learning Modules ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"E-learning Modules ▾\" on https://beta.solwerindia.com/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-7",
+    "page": "https://beta.solwerindia.com/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-burger-menu"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-8",
+    "page": "https://beta.solwerindia.com/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"↑\" triggers expected action",
+    "steps": [
+      "Locate button \"↑\" on https://beta.solwerindia.com/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "app-scroll-to-top"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-9",
+    "page": "https://beta.solwerindia.com/",
+    "category": "content",
+    "type": "edge",
+    "title": "Accessibility: headings are sequential",
+    "steps": [
+      "Inspect heading hierarchy on https://beta.solwerindia.com/",
+      "Check that h1->h2->h3 order is logical without level skips"
+    ],
+    "expected": "No skipped heading levels; improves screen reader navigation"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-10",
+    "page": "https://beta.solwerindia.com/",
+    "category": "content",
+    "type": "positive",
+    "title": "Key content visible above the fold",
+    "steps": [
+      "Load https://beta.solwerindia.com/",
+      "Verify primary headline and CTA are visible without scrolling"
+    ],
+    "expected": "Critical messaging appears immediately to user"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-11",
+    "page": "https://beta.solwerindia.com/",
+    "category": "integration",
+    "type": "edge",
+    "title": "Third-party scripts resiliency",
+    "steps": [
+      "Simulate blocked network for one external script (e.g., via request interception) on https://beta.solwerindia.com/",
+      "Load the page",
+      "Observe UI fallbacks"
+    ],
+    "expected": "Page remains usable and shows graceful degradation when a script fails to load"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-12",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load SOLWER India: IoT, AI, Innovative Technology successfully",
+    "steps": [
+      "Open https://beta.solwerindia.com/solutions",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-13",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://beta.solwerindia.com/solutions (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-14",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://beta.solwerindia.com/solutions",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-15",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/solutions",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-menu-close"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-16",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Solutions ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"Solutions ▾\" on https://beta.solwerindia.com/solutions",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-17",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"E-learning Modules ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"E-learning Modules ▾\" on https://beta.solwerindia.com/solutions",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-18",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/solutions",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-burger-menu"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-19",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Book Demo\" triggers expected action",
+    "steps": [
+      "Locate button \"Book Demo\" on https://beta.solwerindia.com/solutions",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "primary-btn demo-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-20",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Book Demo\" triggers expected action",
+    "steps": [
+      "Locate button \"Book Demo\" on https://beta.solwerindia.com/solutions",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "primary-btn demo-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-21",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Book Demo\" triggers expected action",
+    "steps": [
+      "Locate button \"Book Demo\" on https://beta.solwerindia.com/solutions",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "primary-btn demo-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-22",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Book Demo\" triggers expected action",
+    "steps": [
+      "Locate button \"Book Demo\" on https://beta.solwerindia.com/solutions",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "primary-btn demo-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-23",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Book Demo\" triggers expected action",
+    "steps": [
+      "Locate button \"Book Demo\" on https://beta.solwerindia.com/solutions",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "primary-btn demo-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-24",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \" × \" triggers expected action",
+    "steps": [
+      "Locate button \" × \" on https://beta.solwerindia.com/solutions",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "clsoe-btn icon-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-25",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "content",
+    "type": "edge",
+    "title": "Accessibility: headings are sequential",
+    "steps": [
+      "Inspect heading hierarchy on https://beta.solwerindia.com/solutions",
+      "Check that h1->h2->h3 order is logical without level skips"
+    ],
+    "expected": "No skipped heading levels; improves screen reader navigation"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-26",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "content",
+    "type": "positive",
+    "title": "Key content visible above the fold",
+    "steps": [
+      "Load https://beta.solwerindia.com/solutions",
+      "Verify primary headline and CTA are visible without scrolling"
+    ],
+    "expected": "Critical messaging appears immediately to user"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-27",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "form",
+    "type": "positive",
+    "title": "Submit form-1 with valid data",
+    "steps": [
+      "Open https://beta.solwerindia.com/solutions",
+      "Fill all inputs in form-1 with valid sample values",
+      "Submit the form"
+    ],
+    "expected": "Submission succeeds with success message or navigation; no validation errors",
+    "data": {
+      "method": "GET",
+      "inputs": [
+        "name",
+        "email",
+        "phoneNumber",
+        "organizationName",
+        "designation",
+        "preferredDemoDate",
+        "message",
+        "g-recaptcha-response"
+      ]
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-28",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: required field validation",
+    "steps": [
+      "Open https://beta.solwerindia.com/solutions",
+      "Leave one required/visible field empty in form-1",
+      "Submit the form"
+    ],
+    "expected": "Inline validation highlights the empty field; form does not submit"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-29",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "form",
+    "type": "edge",
+    "title": "form-1: boundary input lengths",
+    "steps": [
+      "Open https://beta.solwerindia.com/solutions",
+      "Fill text inputs with 256+ characters and numeric inputs with large values",
+      "Submit the form"
+    ],
+    "expected": "Form handles oversized input gracefully (truncation or validation message) without breaking layout"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-30",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: invalid email is rejected",
+    "steps": [
+      "Open https://beta.solwerindia.com/solutions",
+      "Enter \"not-an-email\" in email field",
+      "Submit the form"
+    ],
+    "expected": "Client-side validation blocks submission and shows clear error on email field"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-31",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "integration",
+    "type": "edge",
+    "title": "Third-party scripts resiliency",
+    "steps": [
+      "Simulate blocked network for one external script (e.g., via request interception) on https://beta.solwerindia.com/solutions",
+      "Load the page",
+      "Observe UI fallbacks"
+    ],
+    "expected": "Page remains usable and shows graceful degradation when a script fails to load"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-32",
+    "page": "https://beta.solwerindia.com/solutions",
+    "category": "integration",
+    "type": "positive",
+    "title": "Embedded iframe renders",
+    "steps": [
+      "Load https://beta.solwerindia.com/solutions",
+      "Wait for iframe content to render",
+      "Verify embedded content is visible"
+    ],
+    "expected": "Iframe loads without mixed-content or CSP errors; content is visible"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-33",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load Digital Tools - SOLWER India | Innovative Technology Solutions successfully",
+    "steps": [
+      "Open https://beta.solwerindia.com/digital-tools",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-34",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://beta.solwerindia.com/digital-tools (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-35",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://beta.solwerindia.com/digital-tools",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-36",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/digital-tools",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-menu-close"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-37",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Solutions ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"Solutions ▾\" on https://beta.solwerindia.com/digital-tools",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-38",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"E-learning Modules ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"E-learning Modules ▾\" on https://beta.solwerindia.com/digital-tools",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-39",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/digital-tools",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-burger-menu"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-40",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Try now →\" triggers expected action",
+    "steps": [
+      "Locate button \"Try now →\" on https://beta.solwerindia.com/digital-tools",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "try-copy-left-tool"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-41",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"×\" triggers expected action",
+    "steps": [
+      "Locate button \"×\" on https://beta.solwerindia.com/digital-tools",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "close-modal"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-42",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Try now →\" triggers expected action",
+    "steps": [
+      "Locate button \"Try now →\" on https://beta.solwerindia.com/digital-tools",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "primary-btn try-now-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-43",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"×\" triggers expected action",
+    "steps": [
+      "Locate button \"×\" on https://beta.solwerindia.com/digital-tools",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "close-modal-uiux-evaluation-tool"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-44",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Try now →\" triggers expected action",
+    "steps": [
+      "Locate button \"Try now →\" on https://beta.solwerindia.com/digital-tools",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "primary-btn try-now-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-45",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Try now →\" triggers expected action",
+    "steps": [
+      "Locate button \"Try now →\" on https://beta.solwerindia.com/digital-tools",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "primary-btn try-now-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-46",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "content",
+    "type": "edge",
+    "title": "Accessibility: headings are sequential",
+    "steps": [
+      "Inspect heading hierarchy on https://beta.solwerindia.com/digital-tools",
+      "Check that h1->h2->h3 order is logical without level skips"
+    ],
+    "expected": "No skipped heading levels; improves screen reader navigation"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-47",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "content",
+    "type": "positive",
+    "title": "Key content visible above the fold",
+    "steps": [
+      "Load https://beta.solwerindia.com/digital-tools",
+      "Verify primary headline and CTA are visible without scrolling"
+    ],
+    "expected": "Critical messaging appears immediately to user"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-48",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "integration",
+    "type": "edge",
+    "title": "Third-party scripts resiliency",
+    "steps": [
+      "Simulate blocked network for one external script (e.g., via request interception) on https://beta.solwerindia.com/digital-tools",
+      "Load the page",
+      "Observe UI fallbacks"
+    ],
+    "expected": "Page remains usable and shows graceful degradation when a script fails to load"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-49",
+    "page": "https://beta.solwerindia.com/digital-tools",
+    "category": "integration",
+    "type": "positive",
+    "title": "Embedded iframe renders",
+    "steps": [
+      "Load https://beta.solwerindia.com/digital-tools",
+      "Wait for iframe content to render",
+      "Verify embedded content is visible"
+    ],
+    "expected": "Iframe loads without mixed-content or CSP errors; content is visible"
+  },
+  {
+    "id": "TC-www.youtube.com-50",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load Solwer India Official - YouTube successfully",
+    "steps": [
+      "Open https://www.youtube.com/@SolwerIndiaOfficial",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-www.youtube.com-51",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://www.youtube.com/@SolwerIndiaOfficial (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-www.youtube.com-52",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://www.youtube.com/@SolwerIndiaOfficial",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-www.youtube.com-53",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"\n      \n      \n    \" triggers expected action",
+    "steps": [
+      "Locate button \"\n      \n      \n    \" on https://www.youtube.com/@SolwerIndiaOfficial",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "button"
+    }
+  },
+  {
+    "id": "TC-www.youtube.com-54",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button\" triggers expected action",
+    "steps": [
+      "Locate button \"button\" on https://www.youtube.com/@SolwerIndiaOfficial",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "button"
+    }
+  },
+  {
+    "id": "TC-www.youtube.com-55",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-3\" triggers expected action",
+    "steps": [
+      "Locate button \"button-3\" on https://www.youtube.com/@SolwerIndiaOfficial",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "ytSearchboxComponentSearchButton"
+    }
+  },
+  {
+    "id": "TC-www.youtube.com-56",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"\n      \n      \n      \n        Search\n      \n    \" triggers expected action",
+    "steps": [
+      "Locate button \"\n      \n      \n      \n        Search\n      \n    \" on https://www.youtube.com/@SolwerIndiaOfficial",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "button"
+    }
+  },
+  {
+    "id": "TC-www.youtube.com-57",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button\" triggers expected action",
+    "steps": [
+      "Locate button \"button\" on https://www.youtube.com/@SolwerIndiaOfficial",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "button"
+    }
+  },
+  {
+    "id": "TC-www.youtube.com-58",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "form",
+    "type": "positive",
+    "title": "Submit /results with valid data",
+    "steps": [
+      "Open https://www.youtube.com/@SolwerIndiaOfficial",
+      "Fill all inputs in /results with valid sample values",
+      "Submit the form"
+    ],
+    "expected": "Submission succeeds with success message or navigation; no validation errors",
+    "data": {
+      "method": "GET",
+      "inputs": [
+        "search_query"
+      ]
+    }
+  },
+  {
+    "id": "TC-www.youtube.com-59",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "form",
+    "type": "negative",
+    "title": "/results: required field validation",
+    "steps": [
+      "Open https://www.youtube.com/@SolwerIndiaOfficial",
+      "Leave one required/visible field empty in /results",
+      "Submit the form"
+    ],
+    "expected": "Inline validation highlights the empty field; form does not submit"
+  },
+  {
+    "id": "TC-www.youtube.com-60",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "form",
+    "type": "edge",
+    "title": "/results: boundary input lengths",
+    "steps": [
+      "Open https://www.youtube.com/@SolwerIndiaOfficial",
+      "Fill text inputs with 256+ characters and numeric inputs with large values",
+      "Submit the form"
+    ],
+    "expected": "Form handles oversized input gracefully (truncation or validation message) without breaking layout"
+  },
+  {
+    "id": "TC-www.youtube.com-61",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "form",
+    "type": "positive",
+    "title": "Submit /@SolwerIndiaOfficial/search with valid data",
+    "steps": [
+      "Open https://www.youtube.com/@SolwerIndiaOfficial",
+      "Fill all inputs in /@SolwerIndiaOfficial/search with valid sample values",
+      "Submit the form"
+    ],
+    "expected": "Submission succeeds with success message or navigation; no validation errors",
+    "data": {
+      "method": "GET",
+      "inputs": [
+        "query"
+      ]
+    }
+  },
+  {
+    "id": "TC-www.youtube.com-62",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "form",
+    "type": "negative",
+    "title": "/@SolwerIndiaOfficial/search: required field validation",
+    "steps": [
+      "Open https://www.youtube.com/@SolwerIndiaOfficial",
+      "Leave one required/visible field empty in /@SolwerIndiaOfficial/search",
+      "Submit the form"
+    ],
+    "expected": "Inline validation highlights the empty field; form does not submit"
+  },
+  {
+    "id": "TC-www.youtube.com-63",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "form",
+    "type": "edge",
+    "title": "/@SolwerIndiaOfficial/search: boundary input lengths",
+    "steps": [
+      "Open https://www.youtube.com/@SolwerIndiaOfficial",
+      "Fill text inputs with 256+ characters and numeric inputs with large values",
+      "Submit the form"
+    ],
+    "expected": "Form handles oversized input gracefully (truncation or validation message) without breaking layout"
+  },
+  {
+    "id": "TC-www.youtube.com-64",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "integration",
+    "type": "edge",
+    "title": "Third-party scripts resiliency",
+    "steps": [
+      "Simulate blocked network for one external script (e.g., via request interception) on https://www.youtube.com/@SolwerIndiaOfficial",
+      "Load the page",
+      "Observe UI fallbacks"
+    ],
+    "expected": "Page remains usable and shows graceful degradation when a script fails to load"
+  },
+  {
+    "id": "TC-www.youtube.com-65",
+    "page": "https://www.youtube.com/@SolwerIndiaOfficial",
+    "category": "integration",
+    "type": "positive",
+    "title": "Embedded iframe renders",
+    "steps": [
+      "Load https://www.youtube.com/@SolwerIndiaOfficial",
+      "Wait for iframe content to render",
+      "Verify embedded content is visible"
+    ],
+    "expected": "Iframe loads without mixed-content or CSP errors; content is visible"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-66",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load SOLWER India - Data-Driven Sustainable Automotive Solutions successfully",
+    "steps": [
+      "Open https://beta.solwerindia.com/brochures",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-67",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://beta.solwerindia.com/brochures (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-68",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://beta.solwerindia.com/brochures",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-69",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/brochures",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-menu-close"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-70",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Solutions ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"Solutions ▾\" on https://beta.solwerindia.com/brochures",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-71",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"E-learning Modules ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"E-learning Modules ▾\" on https://beta.solwerindia.com/brochures",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-72",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/brochures",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-burger-menu"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-73",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Download Brochure\" triggers expected action",
+    "steps": [
+      "Locate button \"Download Brochure\" on https://beta.solwerindia.com/brochures",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "submit-btn primary-btn big-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-74",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"\n↑\n\" triggers expected action",
+    "steps": [
+      "Locate button \"\n↑\n\" on https://beta.solwerindia.com/brochures",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "app-scroll-to-top"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-75",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "content",
+    "type": "edge",
+    "title": "Accessibility: headings are sequential",
+    "steps": [
+      "Inspect heading hierarchy on https://beta.solwerindia.com/brochures",
+      "Check that h1->h2->h3 order is logical without level skips"
+    ],
+    "expected": "No skipped heading levels; improves screen reader navigation"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-76",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "content",
+    "type": "positive",
+    "title": "Key content visible above the fold",
+    "steps": [
+      "Load https://beta.solwerindia.com/brochures",
+      "Verify primary headline and CTA are visible without scrolling"
+    ],
+    "expected": "Critical messaging appears immediately to user"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-77",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "form",
+    "type": "positive",
+    "title": "Submit form-1 with valid data",
+    "steps": [
+      "Open https://beta.solwerindia.com/brochures",
+      "Fill all inputs in form-1 with valid sample values",
+      "Submit the form"
+    ],
+    "expected": "Submission succeeds with success message or navigation; no validation errors",
+    "data": {
+      "method": "GET",
+      "inputs": [
+        "name",
+        "email",
+        "companyName",
+        "phoneNumber",
+        "brochure",
+        "g-recaptcha-response"
+      ]
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-78",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: required field validation",
+    "steps": [
+      "Open https://beta.solwerindia.com/brochures",
+      "Leave one required/visible field empty in form-1",
+      "Submit the form"
+    ],
+    "expected": "Inline validation highlights the empty field; form does not submit"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-79",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "form",
+    "type": "edge",
+    "title": "form-1: boundary input lengths",
+    "steps": [
+      "Open https://beta.solwerindia.com/brochures",
+      "Fill text inputs with 256+ characters and numeric inputs with large values",
+      "Submit the form"
+    ],
+    "expected": "Form handles oversized input gracefully (truncation or validation message) without breaking layout"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-80",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: invalid email is rejected",
+    "steps": [
+      "Open https://beta.solwerindia.com/brochures",
+      "Enter \"not-an-email\" in email field",
+      "Submit the form"
+    ],
+    "expected": "Client-side validation blocks submission and shows clear error on email field"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-81",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "integration",
+    "type": "edge",
+    "title": "Third-party scripts resiliency",
+    "steps": [
+      "Simulate blocked network for one external script (e.g., via request interception) on https://beta.solwerindia.com/brochures",
+      "Load the page",
+      "Observe UI fallbacks"
+    ],
+    "expected": "Page remains usable and shows graceful degradation when a script fails to load"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-82",
+    "page": "https://beta.solwerindia.com/brochures",
+    "category": "integration",
+    "type": "positive",
+    "title": "Embedded iframe renders",
+    "steps": [
+      "Load https://beta.solwerindia.com/brochures",
+      "Wait for iframe content to render",
+      "Verify embedded content is visible"
+    ],
+    "expected": "Iframe loads without mixed-content or CSP errors; content is visible"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-83",
+    "page": "https://beta.solwerindia.com/news",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load SOLWER India - Data-Driven Sustainable Automotive Solutions successfully",
+    "steps": [
+      "Open https://beta.solwerindia.com/news",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-84",
+    "page": "https://beta.solwerindia.com/news",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://beta.solwerindia.com/news (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-85",
+    "page": "https://beta.solwerindia.com/news",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://beta.solwerindia.com/news",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-86",
+    "page": "https://beta.solwerindia.com/news",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/news",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-menu-close"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-87",
+    "page": "https://beta.solwerindia.com/news",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Solutions ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"Solutions ▾\" on https://beta.solwerindia.com/news",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-88",
+    "page": "https://beta.solwerindia.com/news",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"E-learning Modules ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"E-learning Modules ▾\" on https://beta.solwerindia.com/news",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-89",
+    "page": "https://beta.solwerindia.com/news",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/news",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-burger-menu"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-90",
+    "page": "https://beta.solwerindia.com/news",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"\n↑\n\" triggers expected action",
+    "steps": [
+      "Locate button \"\n↑\n\" on https://beta.solwerindia.com/news",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "app-scroll-to-top"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-91",
+    "page": "https://beta.solwerindia.com/news",
+    "category": "content",
+    "type": "edge",
+    "title": "Accessibility: headings are sequential",
+    "steps": [
+      "Inspect heading hierarchy on https://beta.solwerindia.com/news",
+      "Check that h1->h2->h3 order is logical without level skips"
+    ],
+    "expected": "No skipped heading levels; improves screen reader navigation"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-92",
+    "page": "https://beta.solwerindia.com/news",
+    "category": "content",
+    "type": "positive",
+    "title": "Key content visible above the fold",
+    "steps": [
+      "Load https://beta.solwerindia.com/news",
+      "Verify primary headline and CTA are visible without scrolling"
+    ],
+    "expected": "Critical messaging appears immediately to user"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-93",
+    "page": "https://beta.solwerindia.com/news",
+    "category": "integration",
+    "type": "edge",
+    "title": "Third-party scripts resiliency",
+    "steps": [
+      "Simulate blocked network for one external script (e.g., via request interception) on https://beta.solwerindia.com/news",
+      "Load the page",
+      "Observe UI fallbacks"
+    ],
+    "expected": "Page remains usable and shows graceful degradation when a script fails to load"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-94",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load SOLWER India - Data-Driven Sustainable Automotive Solutions successfully",
+    "steps": [
+      "Open https://beta.solwerindia.com/contact-building",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-95",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://beta.solwerindia.com/contact-building (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-96",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://beta.solwerindia.com/contact-building",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-97",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/contact-building",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-menu-close"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-98",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Solutions ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"Solutions ▾\" on https://beta.solwerindia.com/contact-building",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-99",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"E-learning Modules ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"E-learning Modules ▾\" on https://beta.solwerindia.com/contact-building",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-100",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/contact-building",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-burger-menu"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-101",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Submit Application\" triggers expected action",
+    "steps": [
+      "Locate button \"Submit Application\" on https://beta.solwerindia.com/contact-building",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "submit-btn primary-btn big-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-102",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"\n↑\n\" triggers expected action",
+    "steps": [
+      "Locate button \"\n↑\n\" on https://beta.solwerindia.com/contact-building",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "app-scroll-to-top"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-103",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "content",
+    "type": "edge",
+    "title": "Accessibility: headings are sequential",
+    "steps": [
+      "Inspect heading hierarchy on https://beta.solwerindia.com/contact-building",
+      "Check that h1->h2->h3 order is logical without level skips"
+    ],
+    "expected": "No skipped heading levels; improves screen reader navigation"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-104",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "content",
+    "type": "positive",
+    "title": "Key content visible above the fold",
+    "steps": [
+      "Load https://beta.solwerindia.com/contact-building",
+      "Verify primary headline and CTA are visible without scrolling"
+    ],
+    "expected": "Critical messaging appears immediately to user"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-105",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "form",
+    "type": "positive",
+    "title": "Submit form-1 with valid data",
+    "steps": [
+      "Open https://beta.solwerindia.com/contact-building",
+      "Fill all inputs in form-1 with valid sample values",
+      "Submit the form"
+    ],
+    "expected": "Submission succeeds with success message or navigation; no validation errors",
+    "data": {
+      "method": "GET",
+      "inputs": [
+        "firstName",
+        "lastName",
+        "email",
+        "phoneNumber",
+        "country",
+        "region",
+        "gender",
+        "companyName",
+        "department",
+        "jobTitle",
+        "interviewConsent",
+        "interviewConsent",
+        "heardAbout",
+        "heardAbout",
+        "heardAbout",
+        "heardAbout",
+        "heardAbout",
+        "dataConsent",
+        "certificationConsent",
+        "marketingConsent",
+        "g-recaptcha-response"
+      ]
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-106",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: required field validation",
+    "steps": [
+      "Open https://beta.solwerindia.com/contact-building",
+      "Leave one required/visible field empty in form-1",
+      "Submit the form"
+    ],
+    "expected": "Inline validation highlights the empty field; form does not submit"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-107",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "form",
+    "type": "edge",
+    "title": "form-1: boundary input lengths",
+    "steps": [
+      "Open https://beta.solwerindia.com/contact-building",
+      "Fill text inputs with 256+ characters and numeric inputs with large values",
+      "Submit the form"
+    ],
+    "expected": "Form handles oversized input gracefully (truncation or validation message) without breaking layout"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-108",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: invalid email is rejected",
+    "steps": [
+      "Open https://beta.solwerindia.com/contact-building",
+      "Enter \"not-an-email\" in email field",
+      "Submit the form"
+    ],
+    "expected": "Client-side validation blocks submission and shows clear error on email field"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-109",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "integration",
+    "type": "edge",
+    "title": "Third-party scripts resiliency",
+    "steps": [
+      "Simulate blocked network for one external script (e.g., via request interception) on https://beta.solwerindia.com/contact-building",
+      "Load the page",
+      "Observe UI fallbacks"
+    ],
+    "expected": "Page remains usable and shows graceful degradation when a script fails to load"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-110",
+    "page": "https://beta.solwerindia.com/contact-building",
+    "category": "integration",
+    "type": "positive",
+    "title": "Embedded iframe renders",
+    "steps": [
+      "Load https://beta.solwerindia.com/contact-building",
+      "Wait for iframe content to render",
+      "Verify embedded content is visible"
+    ],
+    "expected": "Iframe loads without mixed-content or CSP errors; content is visible"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-111",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load SOLWER India - Data-Driven Sustainable Automotive Solutions successfully",
+    "steps": [
+      "Open https://beta.solwerindia.com/blogs",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-112",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://beta.solwerindia.com/blogs (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-113",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://beta.solwerindia.com/blogs",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-114",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/blogs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-menu-close"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-115",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Solutions ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"Solutions ▾\" on https://beta.solwerindia.com/blogs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-116",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"E-learning Modules ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"E-learning Modules ▾\" on https://beta.solwerindia.com/blogs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-117",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/blogs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-burger-menu"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-118",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-5\" triggers expected action",
+    "steps": [
+      "Locate button \"button-5\" on https://beta.solwerindia.com/blogs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "share-blog-btn icon-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-119",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-6\" triggers expected action",
+    "steps": [
+      "Locate button \"button-6\" on https://beta.solwerindia.com/blogs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "share-blog-btn icon-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-120",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-7\" triggers expected action",
+    "steps": [
+      "Locate button \"button-7\" on https://beta.solwerindia.com/blogs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "share-blog-btn icon-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-121",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-8\" triggers expected action",
+    "steps": [
+      "Locate button \"button-8\" on https://beta.solwerindia.com/blogs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "share-blog-btn icon-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-122",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-9\" triggers expected action",
+    "steps": [
+      "Locate button \"button-9\" on https://beta.solwerindia.com/blogs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "share-blog-btn icon-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-123",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-10\" triggers expected action",
+    "steps": [
+      "Locate button \"button-10\" on https://beta.solwerindia.com/blogs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "share-blog-btn icon-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-124",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "content",
+    "type": "edge",
+    "title": "Accessibility: headings are sequential",
+    "steps": [
+      "Inspect heading hierarchy on https://beta.solwerindia.com/blogs",
+      "Check that h1->h2->h3 order is logical without level skips"
+    ],
+    "expected": "No skipped heading levels; improves screen reader navigation"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-125",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "content",
+    "type": "positive",
+    "title": "Key content visible above the fold",
+    "steps": [
+      "Load https://beta.solwerindia.com/blogs",
+      "Verify primary headline and CTA are visible without scrolling"
+    ],
+    "expected": "Critical messaging appears immediately to user"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-126",
+    "page": "https://beta.solwerindia.com/blogs",
+    "category": "integration",
+    "type": "edge",
+    "title": "Third-party scripts resiliency",
+    "steps": [
+      "Simulate blocked network for one external script (e.g., via request interception) on https://beta.solwerindia.com/blogs",
+      "Load the page",
+      "Observe UI fallbacks"
+    ],
+    "expected": "Page remains usable and shows graceful degradation when a script fails to load"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-127",
+    "page": "https://beta.solwerindia.com/jobs",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load Careers & Jobs – SOLWER India | Join our Team successfully",
+    "steps": [
+      "Open https://beta.solwerindia.com/jobs",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-128",
+    "page": "https://beta.solwerindia.com/jobs",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://beta.solwerindia.com/jobs (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-129",
+    "page": "https://beta.solwerindia.com/jobs",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://beta.solwerindia.com/jobs",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-130",
+    "page": "https://beta.solwerindia.com/jobs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/jobs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-menu-close"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-131",
+    "page": "https://beta.solwerindia.com/jobs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Solutions ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"Solutions ▾\" on https://beta.solwerindia.com/jobs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-132",
+    "page": "https://beta.solwerindia.com/jobs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"E-learning Modules ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"E-learning Modules ▾\" on https://beta.solwerindia.com/jobs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-133",
+    "page": "https://beta.solwerindia.com/jobs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/jobs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-burger-menu"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-134",
+    "page": "https://beta.solwerindia.com/jobs",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"\n↑\n\" triggers expected action",
+    "steps": [
+      "Locate button \"\n↑\n\" on https://beta.solwerindia.com/jobs",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "app-scroll-to-top"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-135",
+    "page": "https://beta.solwerindia.com/jobs",
+    "category": "content",
+    "type": "edge",
+    "title": "Accessibility: headings are sequential",
+    "steps": [
+      "Inspect heading hierarchy on https://beta.solwerindia.com/jobs",
+      "Check that h1->h2->h3 order is logical without level skips"
+    ],
+    "expected": "No skipped heading levels; improves screen reader navigation"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-136",
+    "page": "https://beta.solwerindia.com/jobs",
+    "category": "content",
+    "type": "positive",
+    "title": "Key content visible above the fold",
+    "steps": [
+      "Load https://beta.solwerindia.com/jobs",
+      "Verify primary headline and CTA are visible without scrolling"
+    ],
+    "expected": "Critical messaging appears immediately to user"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-137",
+    "page": "https://beta.solwerindia.com/jobs",
+    "category": "integration",
+    "type": "edge",
+    "title": "Third-party scripts resiliency",
+    "steps": [
+      "Simulate blocked network for one external script (e.g., via request interception) on https://beta.solwerindia.com/jobs",
+      "Load the page",
+      "Observe UI fallbacks"
+    ],
+    "expected": "Page remains usable and shows graceful degradation when a script fails to load"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-138",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load Contact Us - SOLWER India | Get in Touch for Automotive Solutions successfully",
+    "steps": [
+      "Open https://beta.solwerindia.com/contact",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-139",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://beta.solwerindia.com/contact (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-140",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://beta.solwerindia.com/contact",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-141",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/contact",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-menu-close"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-142",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Solutions ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"Solutions ▾\" on https://beta.solwerindia.com/contact",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-143",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"E-learning Modules ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"E-learning Modules ▾\" on https://beta.solwerindia.com/contact",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-144",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/contact",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-burger-menu"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-145",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Submit\" triggers expected action",
+    "steps": [
+      "Locate button \"Submit\" on https://beta.solwerindia.com/contact",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "submit-btn primary-btn big-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-146",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"\n↑\n\" triggers expected action",
+    "steps": [
+      "Locate button \"\n↑\n\" on https://beta.solwerindia.com/contact",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "app-scroll-to-top"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-147",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "content",
+    "type": "edge",
+    "title": "Accessibility: headings are sequential",
+    "steps": [
+      "Inspect heading hierarchy on https://beta.solwerindia.com/contact",
+      "Check that h1->h2->h3 order is logical without level skips"
+    ],
+    "expected": "No skipped heading levels; improves screen reader navigation"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-148",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "content",
+    "type": "positive",
+    "title": "Key content visible above the fold",
+    "steps": [
+      "Load https://beta.solwerindia.com/contact",
+      "Verify primary headline and CTA are visible without scrolling"
+    ],
+    "expected": "Critical messaging appears immediately to user"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-149",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "form",
+    "type": "positive",
+    "title": "Submit form-1 with valid data",
+    "steps": [
+      "Open https://beta.solwerindia.com/contact",
+      "Fill all inputs in form-1 with valid sample values",
+      "Submit the form"
+    ],
+    "expected": "Submission succeeds with success message or navigation; no validation errors",
+    "data": {
+      "method": "GET",
+      "inputs": [
+        "name",
+        "company",
+        "email",
+        "phone",
+        "message",
+        "g-recaptcha-response"
+      ]
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-150",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: required field validation",
+    "steps": [
+      "Open https://beta.solwerindia.com/contact",
+      "Leave one required/visible field empty in form-1",
+      "Submit the form"
+    ],
+    "expected": "Inline validation highlights the empty field; form does not submit"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-151",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "form",
+    "type": "edge",
+    "title": "form-1: boundary input lengths",
+    "steps": [
+      "Open https://beta.solwerindia.com/contact",
+      "Fill text inputs with 256+ characters and numeric inputs with large values",
+      "Submit the form"
+    ],
+    "expected": "Form handles oversized input gracefully (truncation or validation message) without breaking layout"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-152",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: invalid email is rejected",
+    "steps": [
+      "Open https://beta.solwerindia.com/contact",
+      "Enter \"not-an-email\" in email field",
+      "Submit the form"
+    ],
+    "expected": "Client-side validation blocks submission and shows clear error on email field"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-153",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "integration",
+    "type": "edge",
+    "title": "Third-party scripts resiliency",
+    "steps": [
+      "Simulate blocked network for one external script (e.g., via request interception) on https://beta.solwerindia.com/contact",
+      "Load the page",
+      "Observe UI fallbacks"
+    ],
+    "expected": "Page remains usable and shows graceful degradation when a script fails to load"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-154",
+    "page": "https://beta.solwerindia.com/contact",
+    "category": "integration",
+    "type": "positive",
+    "title": "Embedded iframe renders",
+    "steps": [
+      "Load https://beta.solwerindia.com/contact",
+      "Wait for iframe content to render",
+      "Verify embedded content is visible"
+    ],
+    "expected": "Iframe loads without mixed-content or CSP errors; content is visible"
+  },
+  {
+    "id": "TC-www.nikkei.com-155",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load ログイン | NIKKEI ID successfully",
+    "steps": [
+      "Open https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-www.nikkei.com-156",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/ (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-www.nikkei.com-157",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-www.nikkei.com-158",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-1\" triggers expected action",
+    "steps": [
+      "Locate button \"button-1\" on https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "hamburgerButton_h31l1r6 button_b3k06tb buttonIconContainerRow_b1115atl"
+    }
+  },
+  {
+    "id": "TC-www.nikkei.com-159",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"検索\" triggers expected action",
+    "steps": [
+      "Locate button \"検索\" on https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "searchButton_s1fpofzs button_b3k06tb buttonTextContainer_b1r8y0hx"
+    }
+  },
+  {
+    "id": "TC-www.nikkei.com-160",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-3\" triggers expected action",
+    "steps": [
+      "Locate button \"button-3\" on https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "button_bm0snw6 close_cah1yhf"
+    }
+  },
+  {
+    "id": "TC-www.nikkei.com-161",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-4\" triggers expected action",
+    "steps": [
+      "Locate button \"button-4\" on https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "button_bm0snw6 pagination_p1cmtsg5 paginationPrev_pcjwsgr"
+    }
+  },
+  {
+    "id": "TC-www.nikkei.com-162",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-5\" triggers expected action",
+    "steps": [
+      "Locate button \"button-5\" on https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "button_bm0snw6 pagination_p1cmtsg5 paginationNext_p1oyjaja"
+    }
+  },
+  {
+    "id": "TC-www.nikkei.com-163",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-6\" triggers expected action",
+    "steps": [
+      "Locate button \"button-6\" on https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "button_b16oq1vb icon_ivt8n38 dark_daullqm dark_d1yydqyv"
+    }
+  },
+  {
+    "id": "TC-www.nikkei.com-164",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-7\" triggers expected action",
+    "steps": [
+      "Locate button \"button-7\" on https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "buttonStyle_bnsd047  medium_m10rg1v3  button_bfodxuf"
+    }
+  },
+  {
+    "id": "TC-www.nikkei.com-165",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-8\" triggers expected action",
+    "steps": [
+      "Locate button \"button-8\" on https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "button_b1tnwh0b tabletDesktopOnly_t1jlwra4"
+    }
+  },
+  {
+    "id": "TC-www.nikkei.com-166",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-9\" triggers expected action",
+    "steps": [
+      "Locate button \"button-9\" on https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "button_b1tnwh0b"
+    }
+  },
+  {
+    "id": "TC-www.nikkei.com-167",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"button-10\" triggers expected action",
+    "steps": [
+      "Locate button \"button-10\" on https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "button_b1tnwh0b"
+    }
+  },
+  {
+    "id": "TC-www.nikkei.com-168",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "content",
+    "type": "edge",
+    "title": "Accessibility: headings are sequential",
+    "steps": [
+      "Inspect heading hierarchy on https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Check that h1->h2->h3 order is logical without level skips"
+    ],
+    "expected": "No skipped heading levels; improves screen reader navigation"
+  },
+  {
+    "id": "TC-www.nikkei.com-169",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "content",
+    "type": "positive",
+    "title": "Key content visible above the fold",
+    "steps": [
+      "Load https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Verify primary headline and CTA are visible without scrolling"
+    ],
+    "expected": "Critical messaging appears immediately to user"
+  },
+  {
+    "id": "TC-www.nikkei.com-170",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "form",
+    "type": "positive",
+    "title": "Submit form-1 with valid data",
+    "steps": [
+      "Open https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Fill all inputs in form-1 with valid sample values",
+      "Submit the form"
+    ],
+    "expected": "Submission succeeds with success message or navigation; no validation errors",
+    "data": {
+      "method": "GET",
+      "inputs": [
+        "email",
+        ""
+      ]
+    }
+  },
+  {
+    "id": "TC-www.nikkei.com-171",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: required field validation",
+    "steps": [
+      "Open https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Leave one required/visible field empty in form-1",
+      "Submit the form"
+    ],
+    "expected": "Inline validation highlights the empty field; form does not submit"
+  },
+  {
+    "id": "TC-www.nikkei.com-172",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "form",
+    "type": "edge",
+    "title": "form-1: boundary input lengths",
+    "steps": [
+      "Open https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Fill text inputs with 256+ characters and numeric inputs with large values",
+      "Submit the form"
+    ],
+    "expected": "Form handles oversized input gracefully (truncation or validation message) without breaking layout"
+  },
+  {
+    "id": "TC-www.nikkei.com-173",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: invalid email is rejected",
+    "steps": [
+      "Open https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Enter \"not-an-email\" in email field",
+      "Submit the form"
+    ],
+    "expected": "Client-side validation blocks submission and shows clear error on email field"
+  },
+  {
+    "id": "TC-www.nikkei.com-174",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "integration",
+    "type": "edge",
+    "title": "Third-party scripts resiliency",
+    "steps": [
+      "Simulate blocked network for one external script (e.g., via request interception) on https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Load the page",
+      "Observe UI fallbacks"
+    ],
+    "expected": "Page remains usable and shows graceful degradation when a script fails to load"
+  },
+  {
+    "id": "TC-www.nikkei.com-175",
+    "page": "https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+    "category": "integration",
+    "type": "positive",
+    "title": "Embedded iframe renders",
+    "steps": [
+      "Load https://www.nikkei.com/article/DGXZQOUC152NQ0V10C26A2000000/",
+      "Wait for iframe content to render",
+      "Verify embedded content is visible"
+    ],
+    "expected": "Iframe loads without mixed-content or CSP errors; content is visible"
+  },
+  {
+    "id": "TC-jp.findy-team.io-176",
+    "page": "https://jp.findy-team.io/case/denso_international_india/",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load page successfully",
+    "steps": [
+      "Open https://jp.findy-team.io/case/denso_international_india/",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-jp.findy-team.io-177",
+    "page": "https://jp.findy-team.io/case/denso_international_india/",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://jp.findy-team.io/case/denso_international_india/ (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-jp.findy-team.io-178",
+    "page": "https://jp.findy-team.io/case/denso_international_india/",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://jp.findy-team.io/case/denso_international_india/",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-special.nikkeibp.co.jp-179",
+    "page": "https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load page successfully",
+    "steps": [
+      "Open https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-special.nikkeibp.co.jp-180",
+    "page": "https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/ (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-special.nikkeibp.co.jp-181",
+    "page": "https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://special.nikkeibp.co.jp/atclh/ONB/25/dc1_dentsu1205/",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-182",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load デンソー、SaaSで本腰 — 新興国発のSolwerサービスを先進国へ - SOLWER India Blog successfully",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-183",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-184",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-185",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-menu-close"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-186",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Solutions ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"Solutions ▾\" on https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-187",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"E-learning Modules ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"E-learning Modules ▾\" on https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-188",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-burger-menu"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-189",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Share\" triggers expected action",
+    "steps": [
+      "Locate button \"Share\" on https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "share-blog-btn d-flex align-center primary-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-190",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Book Demo\" triggers expected action",
+    "steps": [
+      "Locate button \"Book Demo\" on https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "primary-btn big-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-191",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \" × \" triggers expected action",
+    "steps": [
+      "Locate button \" × \" on https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "clsoe-btn icon-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-192",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Book Demo\" triggers expected action",
+    "steps": [
+      "Locate button \"Book Demo\" on https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "submit-btn big-btn primary-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-193",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"\n↑\n\" triggers expected action",
+    "steps": [
+      "Locate button \"\n↑\n\" on https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "app-scroll-to-top"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-194",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "content",
+    "type": "edge",
+    "title": "Accessibility: headings are sequential",
+    "steps": [
+      "Inspect heading hierarchy on https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Check that h1->h2->h3 order is logical without level skips"
+    ],
+    "expected": "No skipped heading levels; improves screen reader navigation"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-195",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "content",
+    "type": "positive",
+    "title": "Key content visible above the fold",
+    "steps": [
+      "Load https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Verify primary headline and CTA are visible without scrolling"
+    ],
+    "expected": "Critical messaging appears immediately to user"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-196",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "form",
+    "type": "positive",
+    "title": "Submit form-1 with valid data",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Fill all inputs in form-1 with valid sample values",
+      "Submit the form"
+    ],
+    "expected": "Submission succeeds with success message or navigation; no validation errors",
+    "data": {
+      "method": "GET",
+      "inputs": [
+        "name",
+        "email",
+        "phoneNumber",
+        "organizationName",
+        "designation",
+        "preferredDemoDate",
+        "message",
+        "g-recaptcha-response"
+      ]
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-197",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: required field validation",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Leave one required/visible field empty in form-1",
+      "Submit the form"
+    ],
+    "expected": "Inline validation highlights the empty field; form does not submit"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-198",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "form",
+    "type": "edge",
+    "title": "form-1: boundary input lengths",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Fill text inputs with 256+ characters and numeric inputs with large values",
+      "Submit the form"
+    ],
+    "expected": "Form handles oversized input gracefully (truncation or validation message) without breaking layout"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-199",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: invalid email is rejected",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Enter \"not-an-email\" in email field",
+      "Submit the form"
+    ],
+    "expected": "Client-side validation blocks submission and shows clear error on email field"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-200",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "integration",
+    "type": "edge",
+    "title": "Third-party scripts resiliency",
+    "steps": [
+      "Simulate blocked network for one external script (e.g., via request interception) on https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Load the page",
+      "Observe UI fallbacks"
+    ],
+    "expected": "Page remains usable and shows graceful degradation when a script fails to load"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-201",
+    "page": "https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+    "category": "integration",
+    "type": "positive",
+    "title": "Embedded iframe renders",
+    "steps": [
+      "Load https://beta.solwerindia.com/blog/2025/denso-solwer-saas-global-expansion",
+      "Wait for iframe content to render",
+      "Verify embedded content is visible"
+    ],
+    "expected": "Iframe loads without mixed-content or CSP errors; content is visible"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-202",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load How Predicting Demand Improves Inventory and Logistics: A Roadmap to Superior Supply Chain Performance - SOLWER India Blog successfully",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-203",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-204",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-205",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-menu-close"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-206",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Solutions ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"Solutions ▾\" on https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-207",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"E-learning Modules ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"E-learning Modules ▾\" on https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-208",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-burger-menu"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-209",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Share\" triggers expected action",
+    "steps": [
+      "Locate button \"Share\" on https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "share-blog-btn d-flex align-center primary-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-210",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Book Demo\" triggers expected action",
+    "steps": [
+      "Locate button \"Book Demo\" on https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "primary-btn big-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-211",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \" × \" triggers expected action",
+    "steps": [
+      "Locate button \" × \" on https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "clsoe-btn icon-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-212",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Book Demo\" triggers expected action",
+    "steps": [
+      "Locate button \"Book Demo\" on https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "submit-btn big-btn primary-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-213",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"\n↑\n\" triggers expected action",
+    "steps": [
+      "Locate button \"\n↑\n\" on https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "app-scroll-to-top"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-214",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "content",
+    "type": "edge",
+    "title": "Accessibility: headings are sequential",
+    "steps": [
+      "Inspect heading hierarchy on https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Check that h1->h2->h3 order is logical without level skips"
+    ],
+    "expected": "No skipped heading levels; improves screen reader navigation"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-215",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "content",
+    "type": "positive",
+    "title": "Key content visible above the fold",
+    "steps": [
+      "Load https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Verify primary headline and CTA are visible without scrolling"
+    ],
+    "expected": "Critical messaging appears immediately to user"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-216",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "form",
+    "type": "positive",
+    "title": "Submit form-1 with valid data",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Fill all inputs in form-1 with valid sample values",
+      "Submit the form"
+    ],
+    "expected": "Submission succeeds with success message or navigation; no validation errors",
+    "data": {
+      "method": "GET",
+      "inputs": [
+        "name",
+        "email",
+        "phoneNumber",
+        "organizationName",
+        "designation",
+        "preferredDemoDate",
+        "message",
+        "g-recaptcha-response"
+      ]
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-217",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: required field validation",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Leave one required/visible field empty in form-1",
+      "Submit the form"
+    ],
+    "expected": "Inline validation highlights the empty field; form does not submit"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-218",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "form",
+    "type": "edge",
+    "title": "form-1: boundary input lengths",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Fill text inputs with 256+ characters and numeric inputs with large values",
+      "Submit the form"
+    ],
+    "expected": "Form handles oversized input gracefully (truncation or validation message) without breaking layout"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-219",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: invalid email is rejected",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Enter \"not-an-email\" in email field",
+      "Submit the form"
+    ],
+    "expected": "Client-side validation blocks submission and shows clear error on email field"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-220",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "integration",
+    "type": "edge",
+    "title": "Third-party scripts resiliency",
+    "steps": [
+      "Simulate blocked network for one external script (e.g., via request interception) on https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Load the page",
+      "Observe UI fallbacks"
+    ],
+    "expected": "Page remains usable and shows graceful degradation when a script fails to load"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-221",
+    "page": "https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+    "category": "integration",
+    "type": "positive",
+    "title": "Embedded iframe renders",
+    "steps": [
+      "Load https://beta.solwerindia.com/blog/2025/how-predicting-demand-improves-inventory-and-logistics",
+      "Wait for iframe content to render",
+      "Verify embedded content is visible"
+    ],
+    "expected": "Iframe loads without mixed-content or CSP errors; content is visible"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-222",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load Navigating Logistics Complexity: Breaking the Barriers to Supply Chain Visibility - SOLWER India Blog successfully",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-223",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-224",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-225",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-menu-close"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-226",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Solutions ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"Solutions ▾\" on https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-227",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"E-learning Modules ▾\" triggers expected action",
+    "steps": [
+      "Locate button \"E-learning Modules ▾\" on https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "solutions-dropdown"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-228",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"    \" triggers expected action",
+    "steps": [
+      "Locate button \"    \" on https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "mobile-burger-menu"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-229",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Share\" triggers expected action",
+    "steps": [
+      "Locate button \"Share\" on https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "share-blog-btn d-flex align-center primary-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-230",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Book Demo\" triggers expected action",
+    "steps": [
+      "Locate button \"Book Demo\" on https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "primary-btn big-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-231",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \" × \" triggers expected action",
+    "steps": [
+      "Locate button \" × \" on https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "clsoe-btn icon-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-232",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"Book Demo\" triggers expected action",
+    "steps": [
+      "Locate button \"Book Demo\" on https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "submit-btn big-btn primary-btn"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-233",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "interaction",
+    "type": "positive",
+    "title": "Click \"\n↑\n\" triggers expected action",
+    "steps": [
+      "Locate button \"\n↑\n\" on https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Click the button",
+      "Observe navigation, modal, or state change"
+    ],
+    "expected": "Click results in visible action (navigation, modal open, or state change) without JS errors",
+    "data": {
+      "selectorHint": "app-scroll-to-top"
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-234",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "content",
+    "type": "edge",
+    "title": "Accessibility: headings are sequential",
+    "steps": [
+      "Inspect heading hierarchy on https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Check that h1->h2->h3 order is logical without level skips"
+    ],
+    "expected": "No skipped heading levels; improves screen reader navigation"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-235",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "content",
+    "type": "positive",
+    "title": "Key content visible above the fold",
+    "steps": [
+      "Load https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Verify primary headline and CTA are visible without scrolling"
+    ],
+    "expected": "Critical messaging appears immediately to user"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-236",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "form",
+    "type": "positive",
+    "title": "Submit form-1 with valid data",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Fill all inputs in form-1 with valid sample values",
+      "Submit the form"
+    ],
+    "expected": "Submission succeeds with success message or navigation; no validation errors",
+    "data": {
+      "method": "GET",
+      "inputs": [
+        "name",
+        "email",
+        "phoneNumber",
+        "organizationName",
+        "designation",
+        "preferredDemoDate",
+        "message",
+        "g-recaptcha-response"
+      ]
+    }
+  },
+  {
+    "id": "TC-beta.solwerindia.com-237",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: required field validation",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Leave one required/visible field empty in form-1",
+      "Submit the form"
+    ],
+    "expected": "Inline validation highlights the empty field; form does not submit"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-238",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "form",
+    "type": "edge",
+    "title": "form-1: boundary input lengths",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Fill text inputs with 256+ characters and numeric inputs with large values",
+      "Submit the form"
+    ],
+    "expected": "Form handles oversized input gracefully (truncation or validation message) without breaking layout"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-239",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "form",
+    "type": "negative",
+    "title": "form-1: invalid email is rejected",
+    "steps": [
+      "Open https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Enter \"not-an-email\" in email field",
+      "Submit the form"
+    ],
+    "expected": "Client-side validation blocks submission and shows clear error on email field"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-240",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "integration",
+    "type": "edge",
+    "title": "Third-party scripts resiliency",
+    "steps": [
+      "Simulate blocked network for one external script (e.g., via request interception) on https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Load the page",
+      "Observe UI fallbacks"
+    ],
+    "expected": "Page remains usable and shows graceful degradation when a script fails to load"
+  },
+  {
+    "id": "TC-beta.solwerindia.com-241",
+    "page": "https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+    "category": "integration",
+    "type": "positive",
+    "title": "Embedded iframe renders",
+    "steps": [
+      "Load https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility",
+      "Wait for iframe content to render",
+      "Verify embedded content is visible"
+    ],
+    "expected": "Iframe loads without mixed-content or CSP errors; content is visible"
+  },
+  {
+    "id": "TC-www.denso.com-242",
+    "page": "https://www.denso.com/in/en/privacy-policy/",
+    "category": "navigation",
+    "type": "positive",
+    "title": "Load page successfully",
+    "steps": [
+      "Open https://www.denso.com/in/en/privacy-policy/",
+      "Wait for DOMContentLoaded",
+      "Capture page title and console errors"
+    ],
+    "expected": "Page loads within acceptable time and title is not empty; no severe console errors"
+  },
+  {
+    "id": "TC-www.denso.com-243",
+    "page": "https://www.denso.com/in/en/privacy-policy/",
+    "category": "navigation",
+    "type": "negative",
+    "title": "Graceful handling of broken navigation",
+    "steps": [
+      "Attempt to navigate to an invalid path under https://www.denso.com/in/en/privacy-policy/ (e.g., /invalid-test-path)",
+      "Observe response and UI"
+    ],
+    "expected": "User sees branded 404/empty state without crashes; navigation controls remain usable"
+  },
+  {
+    "id": "TC-www.denso.com-244",
+    "page": "https://www.denso.com/in/en/privacy-policy/",
+    "category": "performance",
+    "type": "edge",
+    "title": "First paint under slow network",
+    "steps": [
+      "Throttle network to Slow 3G",
+      "Open https://www.denso.com/in/en/privacy-policy/",
+      "Measure time to first contentful paint"
+    ],
+    "expected": "Critical UI (header/hero) appears within acceptable threshold under degraded bandwidth"
+  }
+]

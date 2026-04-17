@@ -1,0 +1,25 @@
+package com.ai.automation.generated;
+
+import com.ai.automation.BaseTest;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import org.testng.annotations.Test;
+
+public class TC_beta_solwerindia_com_240Test extends BaseTest {
+
+  @Epic("Crawl-derived test cases")
+  @Feature("integration")
+  @Severity(SeverityLevel.NORMAL)
+  @Description("Auto-generated: Third-party scripts resiliency\nExpected: Page remains usable and shows graceful degradation when a script fails to load")
+  @Test(description = "edge | integration | Third-party scripts resiliency")
+  public void test_TC_beta_solwerindia_com_240() {
+    driver.get("https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility");
+    // Step 1: Simulate blocked network for one external script (e.g., via request interception) on https://beta.solwerindia.com/blog/2025/breaking-the-barriers-to-supply-chain-visibility
+    // Step 2: Load the page
+    // Step 3: Observe UI fallbacks
+    // TODO: Add assertions to verify: Page remains usable and shows graceful degradation when a script fails to load
+  }
+}

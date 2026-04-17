@@ -1,0 +1,4 @@
+Finally, let's review the critical failures identified during testing. https://beta.solwerindia.com/: Home Flow: Play video - No YouTube iframe found. https://beta.solwerindia.com/: Home Flow: Section: Recent Blogs - locator.scrollIntoViewIfNeeded: Timeout 25000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Recent Blogs').first()[22m
+. https://beta.solwerindia.com/: Home Flow: Action: View all blogs - Element not found. These issues need immediate attention before deployment.

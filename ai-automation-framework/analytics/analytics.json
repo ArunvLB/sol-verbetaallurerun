@@ -1,0 +1,310 @@
+{
+  "generatedAt": "2026-03-31T11:55:50.364Z",
+  "totalRuns": 24,
+  "latestRunId": "run-1774958150343",
+  "passRateTrend": [
+    {
+      "runId": "run-1774425471980",
+      "timestamp": "2026-03-25T07:57:51.980Z",
+      "url": "https://example.com",
+      "passRate": 100,
+      "totalTests": 2,
+      "passed": 2,
+      "failed": 0,
+      "pagesScanned": 1
+    },
+    {
+      "runId": "run-1774425615588",
+      "timestamp": "2026-03-25T08:00:15.589Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 32,
+      "passed": 32,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774427464822",
+      "timestamp": "2026-03-25T08:31:04.822Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 32,
+      "passed": 32,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774427980269",
+      "timestamp": "2026-03-25T08:39:40.269Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 32,
+      "passed": 32,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774428557665",
+      "timestamp": "2026-03-25T08:49:17.665Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 32,
+      "passed": 32,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774446513282",
+      "timestamp": "2026-03-25T13:48:33.282Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 32,
+      "passed": 32,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774446843831",
+      "timestamp": "2026-03-25T13:54:03.831Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 32,
+      "passed": 32,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774517460313",
+      "timestamp": "2026-03-26T09:31:00.313Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 32,
+      "passed": 32,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774520723077",
+      "timestamp": "2026-03-26T10:25:23.077Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 32,
+      "passed": 32,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774521194371",
+      "timestamp": "2026-03-26T10:33:14.371Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 32,
+      "passed": 32,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774521590909",
+      "timestamp": "2026-03-26T10:39:50.909Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 32,
+      "passed": 32,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774521909828",
+      "timestamp": "2026-03-26T10:45:09.828Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 32,
+      "passed": 32,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774522311953",
+      "timestamp": "2026-03-26T10:51:51.953Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 32,
+      "passed": 32,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774524718074",
+      "timestamp": "2026-03-26T11:31:58.074Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 32,
+      "passed": 32,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774601094636",
+      "timestamp": "2026-03-27T08:44:54.636Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 30,
+      "passed": 30,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774601813110",
+      "timestamp": "2026-03-27T08:56:53.110Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 10,
+      "passed": 10,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774603076190",
+      "timestamp": "2026-03-27T09:17:56.190Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 100,
+      "totalTests": 32,
+      "passed": 32,
+      "failed": 0,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774605827714",
+      "timestamp": "2026-03-27T10:03:47.714Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 83.7,
+      "totalTests": 49,
+      "passed": 41,
+      "failed": 8,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774607113849",
+      "timestamp": "2026-03-27T10:25:13.849Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 83.7,
+      "totalTests": 49,
+      "passed": 41,
+      "failed": 8,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774703740008",
+      "timestamp": "2026-03-28T13:15:40.008Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 83.7,
+      "totalTests": 49,
+      "passed": 41,
+      "failed": 8,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774854154550",
+      "timestamp": "2026-03-30T07:02:34.550Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 83.7,
+      "totalTests": 49,
+      "passed": 41,
+      "failed": 8,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774855963170",
+      "timestamp": "2026-03-30T07:32:43.170Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 83.7,
+      "totalTests": 49,
+      "passed": 41,
+      "failed": 8,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774956872441",
+      "timestamp": "2026-03-31T11:34:32.441Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 91.1,
+      "totalTests": 45,
+      "passed": 41,
+      "failed": 4,
+      "pagesScanned": 17
+    },
+    {
+      "runId": "run-1774958150343",
+      "timestamp": "2026-03-31T11:55:50.343Z",
+      "url": "https://beta.solwerindia.com/",
+      "passRate": 91.1,
+      "totalTests": 45,
+      "passed": 41,
+      "failed": 4,
+      "pagesScanned": 17
+    }
+  ],
+  "flakyTests": [
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Play video",
+      "occurrences": 7,
+      "status": "flaky"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Section: Digital Solutions for Sustainable Growth",
+      "occurrences": 6,
+      "status": "flaky"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Section: Quantifiable Growth",
+      "occurrences": 5,
+      "status": "flaky"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Section: Latest News",
+      "occurrences": 5,
+      "status": "flaky"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Action: View all news",
+      "occurrences": 5,
+      "status": "flaky"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Section: Recent Blogs",
+      "occurrences": 6,
+      "status": "flaky"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Action: View all blogs",
+      "occurrences": 7,
+      "status": "flaky"
+    },
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Action: Back to top",
+      "occurrences": 7,
+      "status": "flaky"
+    }
+  ],
+  "newFailures": [
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Section: Recent Blogs"
+    }
+  ],
+  "fixedIssues": [
+    {
+      "page": "https://beta.solwerindia.com/",
+      "test": "Home Flow: Section: Digital Solutions for Sustainable Growth"
+    }
+  ],
+  "stability": "8 flaky test(s) detected"
+}
