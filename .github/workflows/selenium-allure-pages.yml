@@ -17,6 +17,8 @@ concurrency:
 jobs:
   test-and-publish:
     runs-on: windows-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     defaults:
       run:
         shell: powershell
@@ -47,7 +49,7 @@ jobs:
         run: .\mvnw.cmd clean test allure:report "-Dsurefire.suiteXmlFiles=testng-first-78.xml" "-Dmaven.test.failure.ignore=true"
 
       - name: Generate Allure HTML report
-        run: npx allure generate ".\target\allure-results" -o ".\target\allure-report" --clean
+        run: npx --yes allure-commandline generate target/allure-results -o target/allure-report --clean
 
       - name: Upload Allure results artifact
         if: always()
