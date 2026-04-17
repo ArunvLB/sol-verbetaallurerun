@@ -47,8 +47,11 @@ jobs:
       - name: Run Selenium TestNG suite
         working-directory: ai-automation-framework/tests/selenium
         run: |
-          chmod +x mvnw
-          ./mvnw clean test -Dsurefire.suiteXmlFiles=testng-first-78.xml -Dmaven.test.failure.ignore=true
+          mvn clean test \
+            -Dsurefire.suiteXmlFiles=testng-first-78.xml \
+            -Dmaven.test.failure.ignore=true \
+            -s .mvn/settings.xml \
+            -Dmaven.repo.local=.m2repo
 
       - name: Generate Allure HTML report
         working-directory: ai-automation-framework/tests/selenium
