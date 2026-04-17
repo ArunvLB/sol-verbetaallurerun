@@ -36,8 +36,7 @@ public class WebDriverFactory {
           wdm.avoidBrowserDetection().driverVersion("146.0.0");
         } else {
           System.out.println("DEBUG: CI/Linux detected. Using dynamic driver resolution.");
-          // Ensure WDM uses the system chrome for setup
-          wdm.useMirror(); // Use mirror for potentially faster downloads in CI
+          // Let WebDriverManager auto-detect the installed chrome version
         }
         
         wdm.setup();

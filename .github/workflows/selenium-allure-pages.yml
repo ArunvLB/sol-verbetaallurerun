@@ -3,7 +3,7 @@ name: Selenium Allure Pages
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "0 12 * * *"  # 5:30 PM IST daily
 
 permissions:
   contents: read
@@ -16,13 +16,9 @@ concurrency:
 
 jobs:
   test-and-publish:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-    defaults:
-      run:
-        shell: powershell
-        working-directory: ai-automation-framework/tests/selenium
 
     steps:
       - name: Check out repository
@@ -39,16 +35,23 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: npm
-          cache-dependency-path: ai-automation-framework/package-lock.json
 
-      - name: Set up GitHub Pages
-        uses: actions/configure-pages@v5
+      - name: Install Google Chrome
+        run: |
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update -y
+          sudo apt-get install -y google-chrome-stable
+          google-chrome --version
 
       - name: Run Selenium TestNG suite
-        run: .\mvnw.cmd clean test allure:report "-Dsurefire.suiteXmlFiles=testng-first-78.xml" "-Dmaven.test.failure.ignore=true"
+        working-directory: ai-automation-framework/tests/selenium
+        run: |
+          chmod +x mvnw
+          ./mvnw clean test -Dsurefire.suiteXmlFiles=testng-first-78.xml -Dmaven.test.failure.ignore=true
 
       - name: Generate Allure HTML report
+        working-directory: ai-automation-framework/tests/selenium
         run: npx --yes allure-commandline generate target/allure-results -o target/allure-report --clean
 
       - name: Upload Allure results artifact
