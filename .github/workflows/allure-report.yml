@@ -39,7 +39,7 @@ jobs:
       - name: Generate Allure Report
         working-directory: ai-automation-framework/tests/selenium
         run: |
-          npx allure-commandline generate target/allure-results -o target/allure-report --clean
+          npx allure generate target/allure-results -o target/allure-report --clean
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

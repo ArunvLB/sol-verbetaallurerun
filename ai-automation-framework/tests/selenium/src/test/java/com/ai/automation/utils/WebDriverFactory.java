@@ -28,16 +28,25 @@ public class WebDriverFactory {
         var wdm = WebDriverManager.chromedriver()
             .cachePath(cacheDir.toString());
         
-        // Use hardcoded version only on Windows if needed, otherwise let it be dynamic for CI
+        System.out.println("DEBUG: Operating System detected as: " + System.getProperty("os.name"));
+        
+        // Use hardcoded version only on Windows local environments
         if (isWindows()) {
+          System.out.println("DEBUG: Local Windows detected. Using specific driver version.");
           wdm.avoidBrowserDetection().driverVersion("146.0.0");
+        } else {
+          System.out.println("DEBUG: CI/Linux detected. Using dynamic driver resolution.");
+          // Ensure WDM uses the system chrome for setup
+          wdm.useMirror(); // Use mirror for potentially faster downloads in CI
         }
         
         wdm.setup();
       } catch (Exception e) {
+        System.err.println("CRITICAL ERROR: WebDriverManager failed: " + e.getMessage());
+        e.printStackTrace();
         throw new IllegalStateException(
             "No local chromedriver found and WebDriverManager could not download one. "
-                + "Ensure Chrome is installed and internet connection is available.",
+                + "Ensure Chrome is installed and internet connection is available. Error: " + e.getMessage(),
             e);
       }
     }
